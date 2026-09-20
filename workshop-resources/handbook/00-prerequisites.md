@@ -35,6 +35,27 @@ If you have not created an AWS account yet, follow these steps **before the work
 
 ---
 
+## 🎁 Sign Up on AWS Builder Center — Do This Now
+
+AWS Builder Center is the official community platform for AWS builders. Signing up through the workshop link unlocks **free student rewards worth up to $579**.
+
+<p align="center">
+  <b>Sign-up link:</b> <a href="https://bit.ly/450cFtS"><b>https://bit.ly/450cFtS</b></a>
+  <br/><br/>
+  <b>Or scan the QR code:</b><br/><br/>
+  <img src="../Qq7vjtJT545MhHy_SBGL - f46844e8-9071-70d1-51b7-86adf8cac96f - Visvesvaraya Technological University-Don Bosco Instit.png" width="200" alt="AWS Builder Center QR Code"/>
+</p>
+
+**What you unlock:**
+- ✅ 1 year of Premium AWS Skill Builder access ($449 value) — after student verification
+- ✅ $10 AWS credits after earning 7 community badges
+- ✅ $20 more AWS credits after 14 badges
+- ✅ Free AWS Foundational Certification exam voucher ($100 value) after 21 badges
+
+> No credit card needed. Student verification takes a few minutes via SheerID.
+
+---
+
 ## 🌐 Join the Community Before Day 1
 
 Stay informed and get workshop updates by joining these channels now:
@@ -55,8 +76,10 @@ Stay informed and get workshop updates by joining these channels now:
 
 ## ✅ Chapter Checklist
 
-- [ ] Laptop, charger ready
+- [ ] Laptop, charger, and internet ready
 - [ ] AWS account created and working
+- [ ] Signed up on AWS Builder Center via the link or QR code above
+- [ ] Student verification started via SheerID
 - [ ] Joined the WhatsApp channel for workshop updates
 - [ ] Following [@awssbg_dbit](https://www.instagram.com/awssbg_dbit/) on Instagram
 

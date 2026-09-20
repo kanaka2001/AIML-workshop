@@ -94,9 +94,11 @@ AWS certifications are globally recognized credentials that:
 
 | Resource | Link | What You Get |
 |---|---|---|
+| **AWS Builder Center** | [bit.ly/450cFtS](https://bit.ly/450cFtS) | Sign up → verify student status → get 1 year Premium Skill Builder free + earn badges for credits and a free exam voucher |
 | AWS Skill Builder | [skillbuilder.aws](https://skillbuilder.aws) | Free courses, practice exams, learning paths |
-| AWS Builder Center | [builder.aws.com](https://builder.aws.com) | Workshops, community, hands-on practice |
 | AWS Free Tier | [aws.amazon.com/free](https://aws.amazon.com/free) | Real services to practice on for free |
+
+> 💡 The fastest path to a free certification exam voucher: sign up on Builder Center → verify student status → earn 21 community badges → voucher unlocks automatically.
 
 ---
 
