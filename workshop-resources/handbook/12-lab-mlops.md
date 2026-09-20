@@ -10,24 +10,16 @@ Build a complete end-to-end machine learning pipeline — from raw data to live 
 
 ---
 
-## 📋 Before You Start
-
-- [ ] I have the customer churn CSV file on my laptop (shared by facilitator)
-- [ ] I am signed in to the AWS Console
+<p align="center">
+  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/SageMaker.svg" width="80" alt="SageMaker"/>
+</p>
 
 ---
 
-## 🗺️ Your Pipeline at a Glance
+## 📋 Before You Start
 
-```
-Step 1  Open SageMaker Canvas
-Step 2  Import the dataset
-Step 3  Create a new model
-Step 4  Set the prediction target (Churn column)
-Step 5  Train with Quick Build
-Step 6  Analyze accuracy and feature importance
-Step 7  Make predictions
-```
+- [ ] Customer churn CSV file is on my laptop
+- [ ] Signed in to the AWS Console
 
 ---
 
@@ -41,9 +33,7 @@ Left sidebar → Applications and IDEs → Canvas
 → Click "Open Canvas"
 ```
 
-> ⏳ First-time setup may take 1–2 minutes. This is normal — Canvas is provisioning your workspace.
-
-- [ ] ✅ Canvas workspace is open
+> ⏳ First-time setup takes 1–2 minutes. Canvas is provisioning your workspace.
 
 ---
 
@@ -52,16 +42,11 @@ Left sidebar → Applications and IDEs → Canvas
 ```
 Left sidebar → Datasets → Click "Import data"
 → Select "Upload"
-→ Choose the customer churn CSV file from your laptop
+→ Choose the customer churn CSV from your laptop
 → Click "Create dataset"
 ```
 
-The CSV contains columns like:
-- `State`, `Account_Length`, `Monthly_Charges`
-- `Cust_Service_Calls`, `International_Plan`
-- `Churn` — this is the column you want to predict
-
-- [ ] ✅ Dataset imported successfully
+The CSV has columns like `State`, `Account_Length`, `Monthly_Charges`, `Cust_Service_Calls`, and `Churn`.
 
 ---
 
@@ -69,62 +54,57 @@ The CSV contains columns like:
 
 ```
 Left sidebar → Models → Click "New model"
-
-Model name → Enter: Customer-Churn-Predictor
-
+Model name   →  Customer-Churn-Predictor
 Select your uploaded dataset → Click "Select dataset"
 ```
-
-- [ ] ✅ Model created and dataset attached
 
 ---
 
 ### Step 4 — Set the Prediction Target
 
 ```
-In the Build tab:
-Target column → Select: Churn
+Build tab → Target column → Select: Churn
 ```
 
-Canvas automatically detects the problem type:
-**Two-category prediction (Binary Classification)** ✅
-
-This means: Canvas will learn to predict either `True` (will churn) or `False` (will not churn).
-
-- [ ] ✅ Target column set to Churn
+Canvas detects: **Two-category prediction (Binary Classification)** ✅
 
 ---
 
 ### Step 5 — Train the Model
 
 ```
-Click "Validate data"
-→ Wait for validation — Canvas checks for missing values and formatting errors
-
+→ Click "Validate data"    (checks for errors first)
 → Click "Quick build"
 ```
 
-> Quick Build trains a functional model in under 10 minutes using AutoML.
-> While it trains, read the section below on how AutoML works.
-
-Training started at: `_______________`
-Training finished at: `_______________`
-
-- [ ] ✅ Quick Build is running
+> Quick Build trains a working model in under 10 minutes using AutoML.
+> While it trains, read the AutoML section below.
 
 ---
 
-## 📖 While You Wait — How AutoML Works
+## 📖 What Happens During Quick Build
 
 When you click Quick Build, Canvas automatically:
 
-1. **Cleans the data** — handles missing values and formats columns
-2. **Engineers features** — creates new useful variables from existing ones
-3. **Tries multiple algorithms** — tests several ML approaches
-4. **Tunes each algorithm** — adjusts settings to improve accuracy
-5. **Picks the winner** — returns the best performing model
+<p align="center">
 
-This is what data scientists used to spend weeks doing manually.
+```
+Cleans the data
+       ↓
+Engineers new features
+       ↓
+Tries multiple ML algorithms
+       ↓
+Tunes each algorithm automatically
+       ↓
+Picks the best-performing model
+       ↓
+Returns accuracy metrics and feature importance
+```
+
+</p>
+
+This is what data scientists used to spend weeks doing by hand.
 
 ---
 
@@ -132,120 +112,62 @@ This is what data scientists used to spend weeks doing manually.
 
 Once training completes, the **Analyze** tab opens automatically.
 
-**Model accuracy:**
-```
-My model accuracy: ___________%
+**Review these two things:**
 
-(Example: 94.2% means the model correctly predicted
-whether a customer would churn 94.2% of the time
-on data it had never seen before)
-```
+**1. Model accuracy** — e.g., `94.2%` means the model correctly predicted churn on test data 94.2% of the time.
 
-**Column Impact (Feature Importance) Chart:**
-
-This shows which columns in the dataset influenced the model's predictions the most.
-
-```
-Top 3 features that predict churn in my model:
-
-1. _______________________________________________
-2. _______________________________________________
-3. _______________________________________________
-```
-
-- [ ] ✅ Accuracy noted
-- [ ] ✅ Top features identified
+**2. Column Impact chart** — shows which columns influenced the predictions most. High-impact features often include `Cust_Service_Calls` and `Monthly_Charges`.
 
 ---
 
 ### Step 7 — Make Predictions
 
 ```
-Click "Predict" (bottom right of the Analyze tab)
+Click "Predict" (bottom right)
 ```
 
 **Option A — Single Prediction:**
-
 ```
 Select "Single prediction"
-→ Adjust the column sliders manually
-→ Watch the churn probability change in real time
+→ Adjust column sliders manually
+→ Watch the churn probability update in real time
 ```
 
-Try this: Set `Cust_Service_Calls` to the maximum value. What happens to the churn prediction?
-
-```
-My observation:
-→ _______________________________________________
-```
+Try setting `Cust_Service_Calls` to maximum. Does the churn probability go up?
 
 **Option B — Batch Prediction:**
-
 ```
 Select "Batch prediction"
 → Upload a new CSV of customer records
-→ Canvas generates a churn probability for every customer at once
-```
-
-- [ ] ✅ I made at least one single prediction
-- [ ] ✅ I observed which features affect the prediction
-
----
-
-## 🗺️ What You Just Built
-
-```
-Customer CSV Data
-      ↓
-  Import & Validate (Canvas)
-      ↓
-  Automated Feature Engineering
-      ↓
-  AutoML Model Training
-      ↓
-  Accuracy + Feature Importance Analysis
-      ↓
-  Live Single & Batch Predictions
-      ↓
-  ✅ Complete End-to-End MLOps Pipeline
+→ Canvas scores every customer at once
 ```
 
 ---
 
-## 🧠 Reflection
+## 🌐 Share Your ML Model!
 
-```
-Model accuracy of 94% sounds great. But what happens
-to the 6% of predictions that are wrong? In a business
-context, which type of error is worse — predicting a
-customer will stay when they actually leave, or predicting
-they will leave when they actually stay?
+> 🔬 You just built a machine learning model from scratch — without writing a single line of code.
+> Share it with the community:
+> **[@awssbg_dbit](https://www.instagram.com/awssbg_dbit/)**
+> **#AWSBuildersLab #MLOps #SageMaker #HexaVerse26**
 
-→ _______________________________________________
-  _______________________________________________
+Stay updated on upcoming ML events:
 
-Name one industry other than telecom where churn
-prediction would be valuable:
+<p align="center">
 
-→ _______________________________________________
-```
+| | |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Resources and upcoming event announcements |
+| 💼 [LinkedIn](https://www.linkedin.com/company/aws-sbg-dbit/) | Professional ML and cloud community |
 
----
-
-## 🧹 Clean-Up (Do this at teardown)
-
-```
-Canvas → Bottom-left Account icon → Sign out
-AWS Console → SageMaker → Domains
-→ Verify Canvas app status shows: Stopped
-```
+</p>
 
 ---
 
 ## ✅ Chapter Checklist
 
 - [ ] Dataset imported into Canvas
-- [ ] Model created and target column set to Churn
+- [ ] Model created with Churn as the target column
 - [ ] Quick Build training completed
 - [ ] Accuracy and feature importance reviewed
 - [ ] At least one single prediction made
@@ -254,9 +176,10 @@ AWS Console → SageMaker → Domains
 
 ## 🏆 Badge Unlocked
 
-> **MLOPS ENGINEER 🔬** — You built and deployed a machine learning model. Without writing a line of code.
+> ### 🔬 MLOPS ENGINEER
+> You built and deployed a machine learning model. Without writing a line of code.
 
 ---
 
 > ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 13 — PartyRock AI Builder](13-partyrock.md)
+> ### 👉 [Chapter 13 — PartyRock AI Builder](13-partyrock.md)

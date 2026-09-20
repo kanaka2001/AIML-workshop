@@ -12,83 +12,79 @@ Discover where to keep learning after this workshop using AWS's free official co
 
 ## 🔗 What is AWS Builder Center?
 
-**AWS Builder Center** at **builder.aws.com** is the official online home for the AWS builder community.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="80" alt="AWS"/>
+  <br/>
+  <b>builder.aws.com</b>
+</p>
 
-It is completely free and only requires an **AWS Builder ID** — which is separate from your AWS Console account and does not require a credit card.
-
----
-
-## 📚 What You Can Do There
+AWS Builder Center is the official online home for the AWS community. It is completely free and only needs an **AWS Builder ID** — separate from your console account, no credit card needed.
 
 | Section | What You Get |
 |---|---|
-| **Learn** | Structured learning paths, training courses, and educational content |
-| **Build** | Hands-on workshops and tutorials to practice real cloud skills |
-| **Community** | Connect with builders worldwide, join discussions, follow contributors |
-| **Toolbox** | SDKs, developer tools, and resources for building on AWS |
-
-AWS **Skill Builder** is also linked from Builder Center — it offers free and paid courses, practice exams, and official certification prep paths.
+| **Learn** | Structured learning paths and training courses |
+| **Build** | Hands-on workshops and tutorials |
+| **Community** | Connect with builders globally |
+| **Toolbox** | SDKs, developer tools, and resources |
 
 ---
 
-## 🖥️ Follow Along — Do This Now
+## 🖥️ Follow Along Right Now
 
-Open your browser and follow these steps with the facilitator:
+Open your browser and do this with the facilitator:
 
-**Step 1** → Go to **https://builder.aws.com**
-
-**Step 2** → Click **Sign In** → Use your **AWS Builder ID**
-*(Not the same as your AWS Console login)*
-
-**Step 3** → Explore the **Learn** section
-
-**Step 4** → Find one hands-on workshop that interests you
-
-**Step 5** → Bookmark it for after the workshop
+1. Go to **[https://builder.aws.com](https://builder.aws.com)**
+2. Click **Sign In** → Use your AWS Builder ID
+3. Explore the **Learn** section
+4. Find one workshop or course that interests you
+5. Bookmark it for after today
 
 ---
 
-## 🎯 My Post-Workshop Learning Goal
+## 📚 Also Explore: AWS Skill Builder
 
-```
-The one AWS service or skill I want to master after this workshop:
+**[skillbuilder.aws](https://skillbuilder.aws)** offers:
+- Free digital training courses
+- Official certification exam prep
+- Hands-on labs in a real AWS environment
+- Learning paths for every role
 
-→ _______________________________________________
-
-The resource I will use to learn it:
-
-→ _______________________________________________
-
-I will complete this by (date):
-
-→ _______________________________________________
-```
+> This is the best free resource to continue your cloud learning after the workshop.
 
 ---
 
-## ✏️ My Notes
+## 🌐 Community Shoutout
 
-```
-_______________________________________________
-_______________________________________________
-```
+You are now part of the AWS builder community. Stay connected:
+
+<p align="center">
+
+| Platform | What You Get |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Workshop updates, resources, and event news |
+| 📸 [Instagram @awssbg_dbit](https://www.instagram.com/awssbg_dbit/) | Event highlights, tips, and community posts |
+| 💼 [LinkedIn](https://www.linkedin.com/company/aws-sbg-dbit/) | Professional updates and career opportunities |
+| 🤝 [Meetup Community](https://www.meetup.com/aws-sbg-at-don-bosco-institute-of-technology-bangalore/) | Upcoming events and meetups |
+
+</p>
 
 ---
 
 ## ✅ Chapter Checklist
 
-- [ ] I have opened builder.aws.com
-- [ ] I have signed in with my AWS Builder ID
-- [ ] I found at least one learning resource I want to explore after today
-- [ ] I have written my post-workshop learning goal
+- [ ] Opened builder.aws.com
+- [ ] Signed in with my AWS Builder ID
+- [ ] Found at least one learning resource I want to explore after today
+- [ ] Following [@awssbg_dbit](https://www.instagram.com/awssbg_dbit/) on Instagram
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **LIFELONG LEARNER 📚** — The workshop ends. The learning does not.
+> ### 📚 LIFELONG LEARNER
+> The workshop ends. The learning does not.
 
 ---
 
-> ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 05 — Hands-On Lab: IAM User Setup](05-lab-iam.md)
+> ✅ **Done? The core lab starts next:**
+> ### 👉 [Chapter 05 — Hands-On Lab: IAM User Setup](05-lab-iam.md)

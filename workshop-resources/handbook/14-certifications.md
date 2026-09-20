@@ -6,7 +6,7 @@
 
 ## 🎯 What This Session Is About
 
-Know exactly which AWS certification to go after next, what it proves to employers, and how to prepare for free.
+Know exactly which AWS certification to go after next and how to start preparing for free today.
 
 ---
 
@@ -15,110 +15,122 @@ Know exactly which AWS certification to go after next, what it proves to employe
 AWS certifications are globally recognized credentials that:
 - Prove your cloud skills to employers and recruiters
 - Stand out on your resume alongside your degree
-- Validate that you can actually build on AWS — not just study it
-- Open doors to internships, placements, and cloud-focused roles
+- Validate practical, hands-on ability — not just theory
+- Open doors to internships, placements, and cloud roles
 
 ---
 
 ## 🗺️ Certification Roadmap for AIML Students
 
-Start at the top and work your way down as you gain experience:
-
-### Foundational Level — Start Here
-
-| Certification | Code | What It Validates |
-|---|---|---|
-| **AWS Certified Cloud Practitioner** | CLF-C02 | Overall AWS Cloud knowledge across all job roles |
-| **AWS Certified AI Practitioner** | AIF-C01 | AI, ML, and Generative AI concepts and use cases |
-
-> **Recommended for you right now** — Cloud Practitioner (CLF-C02).
-> After this workshop, you already know enough to start preparing.
-
----
-
-### Associate Level — After 6–12 Months of Practice
-
-| Certification | Code | What It Validates |
-|---|---|---|
-| **Solutions Architect – Associate** | SAA-C03 | Designing cloud systems using AWS best practices |
-| **ML Engineer – Associate** | MLA-C02 | Implementing, deploying, and maintaining ML solutions |
-| **Developer – Associate** | DVA-C02 | Building and deploying applications on AWS |
-
----
-
-### Professional Level — After 2+ Years
-
-| Certification | Code | What It Validates |
-|---|---|---|
-| **Solutions Architect – Professional** | SAP-C02 | Advanced architecture for complex, distributed systems |
-| **DevOps Engineer – Professional** | DOP-C02 | Infrastructure automation and operational excellence |
-| **Generative AI Developer – Professional** | AIP-C01 | Designing and deploying advanced AI solutions at scale |
-
----
-
-### Specialty Level — Deep Domain Expertise
-
-| Certification | Code | What It Validates |
-|---|---|---|
-| **Security – Specialty** | SCS-C03 | Securing AWS workloads and data |
-| **Advanced Networking – Specialty** | ANS-C01 | Designing large-scale network architectures |
-
----
-
-## 🎯 My Certification Plan
+<p align="center">
 
 ```
-The FIRST certification I will pursue:
-
-→ _______________________________________________
-  (Recommended: AWS Certified Cloud Practitioner CLF-C02)
-
-I will start preparing using:
-
-→ _______________________________________________
-  (Recommended: AWS Skill Builder — skillbuilder.aws)
-
-My target month to take the exam:
-
-→ _______________________________________________
+                    START HERE
+                        │
+                        ▼
+┌──────────────────────────────────────────┐
+│  AWS Certified Cloud Practitioner        │
+│  CLF-C02                                 │
+│  Overall AWS Cloud knowledge             │
+│  → Ideal for you RIGHT NOW               │
+└──────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────┐
+│  AWS Certified AI Practitioner           │
+│  AIF-C01                                 │
+│  AI, ML, and Generative AI concepts      │
+│  → After 2–3 months                      │
+└──────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────┐
+│  AWS ML Engineer – Associate             │
+│  MLA-C02                                 │
+│  Deploying and maintaining ML solutions  │
+│  → After 6+ months hands-on experience  │
+└──────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────┐
+│  AWS Solutions Architect – Associate     │
+│  SAA-C03                                 │
+│  Designing cloud architecture at scale   │
+└──────────────────────────────────────────┘
 ```
+
+</p>
 
 ---
 
-## 📚 Free Preparation Resources
+## 📋 Full Certification Overview
 
-| Resource | URL | What You Get |
+**Foundational** — Start here
+
+| Certification | Code | Focus |
 |---|---|---|
-| AWS Skill Builder | https://skillbuilder.aws | Free courses, practice questions, exam prep |
-| AWS Builder Center | https://builder.aws.com | Workshops, community, learning paths |
-| AWS Free Tier | https://aws.amazon.com/free | Practice on real services for free |
-| AWS Documentation | https://docs.aws.amazon.com | Official, always up-to-date service guides |
+| Cloud Practitioner | CLF-C02 | Overall AWS Cloud knowledge |
+| AI Practitioner | AIF-C01 | AI, ML, and Generative AI concepts |
+
+**Associate** — After 6–12 months of practice
+
+| Certification | Code | Focus |
+|---|---|---|
+| Solutions Architect | SAA-C03 | Designing distributed systems |
+| ML Engineer | MLA-C02 | Implementing and deploying ML solutions |
+| Developer | DVA-C02 | Building applications on AWS |
+
+**Professional** — 2+ years experience
+
+| Certification | Code | Focus |
+|---|---|---|
+| Solutions Architect Pro | SAP-C02 | Advanced architecture at scale |
+| DevOps Engineer Pro | DOP-C02 | Infrastructure automation |
+| Generative AI Developer | AIP-C01 | Advanced AI solution design |
 
 ---
 
-## ✏️ My Notes
+## 📚 Free Resources to Start Today
 
-```
-_______________________________________________
-_______________________________________________
-```
+| Resource | Link | What You Get |
+|---|---|---|
+| AWS Skill Builder | [skillbuilder.aws](https://skillbuilder.aws) | Free courses, practice exams, learning paths |
+| AWS Builder Center | [builder.aws.com](https://builder.aws.com) | Workshops, community, hands-on practice |
+| AWS Free Tier | [aws.amazon.com/free](https://aws.amazon.com/free) | Real services to practice on for free |
+
+---
+
+## 🌐 Get Notified About Free Exam Vouchers
+
+AWS SBG DBIT occasionally shares free exam voucher opportunities. Don't miss them:
+
+<p align="center">
+
+| | |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Voucher announcements and certification tips |
+| 💼 [LinkedIn](https://www.linkedin.com/company/aws-sbg-dbit/) | Professional community and career posts |
+| 🌐 [Official Website](https://awsevents.dbit.edu.in/) | Certification prep events and workshops |
+
+</p>
 
 ---
 
 ## ✅ Chapter Checklist
 
-- [ ] I know which certification to pursue first
-- [ ] I have bookmarked AWS Skill Builder (skillbuilder.aws)
-- [ ] I have a rough timeline for my first certification attempt
-- [ ] I understand how certifications map to different career roles
+- [ ] I know which certification to pursue first (Cloud Practitioner CLF-C02)
+- [ ] I have bookmarked skillbuilder.aws
+- [ ] I follow AWS SBG DBIT on LinkedIn for career updates
+- [ ] I am in the WhatsApp channel for voucher announcements
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **CERTIFIED CONTENDER 🏆** — You have a plan. Now go execute it.
+> ### 🏆 CERTIFIED CONTENDER
+> You have a plan. Now go execute it.
 
 ---
 
-> ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 15 — Day 2 Resource Teardown](15-teardown-day2.md)
+> ✅ **Done? Final cleanup:**
+> ### 👉 [Chapter 15 — Day 2 Resource Teardown](15-teardown-day2.md)

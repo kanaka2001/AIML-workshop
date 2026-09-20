@@ -1,41 +1,64 @@
 # ☁️ AWS Builders Lab — Participant Handbook
 ### HexaVerse CloudFest '26
 
-> **Department of AI & ML, DBIT Bengaluru**
-> **In association with AWS Student Builder Group – DBIT**
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="120" alt="AWS Logo"/>
+</p>
+
+<p align="center">
+  <b>Department of AI & ML, DBIT Bengaluru</b><br/>
+  In association with <b>AWS Student Builder Group – DBIT</b>
+</p>
 
 ---
 
-Welcome, Builder! This handbook is split into chapters — one per session.
-Work through them in order, like a book. Each chapter ends with a checklist and a badge before you move to the next.
+> 📖 This handbook is split into **17 chapters — one per session**.
+> Follow them in order like a book. Each chapter ends with a badge and a link to the next one.
 
 ---
 
-## 📖 Table of Contents
+## 📋 Table of Contents
 
 ### Before You Begin
-- [00 — My Workshop Profile & Prerequisites](00-prerequisites.md)
+| Chapter | Title |
+|---|---|
+| [00](00-prerequisites.md) | My Workshop Profile & Prerequisites |
 
 ### 📅 Day 1 — Cloud & AWS Fundamentals
-- [01 — Welcome & Intro to AWS SBG DBIT](01-welcome.md)
-- [02 — Icebreaker & Settle-In](02-icebreaker.md)
-- [03 — History of Cloud & AWS](03-cloud-history.md)
-- [04 — AWS Builder Center](04-builder-center.md)
-- [05 — Hands-On Lab: IAM User Setup](05-lab-iam.md)
-- [06 — Hands-On Lab: S3 Static Website](06-lab-s3.md)
-- [07 — Hands-On Lab: EC2 Virtual Machine](07-lab-ec2.md)
-- [08 — AWS Bedrock Overview](08-bedrock.md)
-- [09 — Day 1 Resource Teardown](09-teardown-day1.md)
+| Chapter | Title |
+|---|---|
+| [01](01-welcome.md) | Welcome & Intro to AWS SBG DBIT |
+| [02](02-icebreaker.md) | Icebreaker & Settle-In |
+| [03](03-cloud-history.md) | History of Cloud & AWS |
+| [04](04-builder-center.md) | AWS Builder Center |
+| [05](05-lab-iam.md) | Hands-On Lab: IAM User Setup |
+| [06](06-lab-s3.md) | Hands-On Lab: S3 Static Website |
+| [07](07-lab-ec2.md) | Hands-On Lab: EC2 Virtual Machine |
+| [08](08-bedrock.md) | AWS Bedrock & Generative AI |
+| [09](09-teardown-day1.md) | Day 1 Resource Teardown |
 
 ### 📅 Day 2 — MLOps, Generative AI & Career
-- [10 — Day 2 Settle-In & Recap](10-recap-day2.md)
-- [11 — SageMaker Canvas Introduction](11-sagemaker-intro.md)
-- [12 — Hands-On Lab: MLOps Pipeline](12-lab-mlops.md)
-- [13 — PartyRock AI Builder](13-partyrock.md)
-- [14 — AWS Certifications & Career Guidance](14-certifications.md)
-- [15 — Day 2 Resource Teardown](15-teardown-day2.md)
-- [16 — Workshop Wrap-Up & Next Steps](16-wrapup.md)
+| Chapter | Title |
+|---|---|
+| [10](10-recap-day2.md) | Day 2 Settle-In & Recap |
+| [11](11-sagemaker-intro.md) | SageMaker Canvas Introduction |
+| [12](12-lab-mlops.md) | Hands-On Lab: MLOps Pipeline |
+| [13](13-partyrock.md) | PartyRock AI Builder |
+| [14](14-certifications.md) | AWS Certifications & Career Guidance |
+| [15](15-teardown-day2.md) | Day 2 Resource Teardown |
+| [16](16-wrapup.md) | Workshop Wrap-Up & Next Steps |
 
 ---
 
-> **Tip:** Open each file in order. Complete the checklist at the end of each chapter before moving to the next.
+<p align="center">
+  <b>👉 Start here →</b> <a href="00-prerequisites.md">Chapter 00 — Prerequisites</a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://www.instagram.com/awssbg_dbit/">📸 Instagram</a> &nbsp;|&nbsp;
+  <a href="https://www.linkedin.com/company/aws-sbg-dbit/">💼 LinkedIn</a> &nbsp;|&nbsp;
+  <a href="https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X">📢 WhatsApp</a> &nbsp;|&nbsp;
+  <a href="https://awsevents.dbit.edu.in/">🌐 Website</a>
+</p>

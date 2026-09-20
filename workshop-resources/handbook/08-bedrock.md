@@ -1,4 +1,4 @@
-# Chapter 08 — AWS Bedrock Overview
+# Chapter 08 — AWS Bedrock & Generative AI
 
 **Day 1 | 02:00 PM – 02:15 PM | 15 minutes**
 
@@ -6,43 +6,47 @@
 
 ## 🎯 What This Session Is About
 
-Understand what Generative AI is, how Amazon Bedrock makes powerful AI models accessible to every developer, and try it live in the browser.
+Understand what Generative AI is, how Amazon Bedrock makes it accessible to every developer, and try it live in the browser.
 
 ---
 
 ## 🤖 What is Amazon Bedrock?
 
-**Amazon Bedrock** is a fully managed AWS service that gives you access to high-performance AI foundation models from leading AI companies — through a single, simple API.
+<p align="center">
+  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/Bedrock.svg" width="80" alt="Amazon Bedrock"/>
+  <br/>
+  <b>Amazon Bedrock</b>
+</p>
 
-You do not need to:
-- Train your own AI model
-- Manage any AI infrastructure
-- Have a machine learning background
+**Amazon Bedrock** is a fully managed service that gives you access to high-performance AI foundation models from leading AI companies — through a single AWS API.
 
-You just call an API and get AI-generated results.
+No infrastructure to manage. No model to train. Just call an API and get AI-generated results.
 
 ---
 
-## 🏢 Models Available on Bedrock
+## 🏢 AI Models Available on Bedrock
+
+<p align="center">
 
 | Provider | Model | Best For |
-|---|---|---|
-| Anthropic | Claude | Conversation, writing, summarization, analysis |
-| Meta | Llama | Open-source text generation |
-| Amazon | Titan | Text, embeddings, image generation |
-| Mistral | Mistral & Mixtral | Efficient text generation |
+|:---:|:---:|:---:|
+| Anthropic | **Claude** | Conversation, writing, analysis, summarization |
+| Meta | **Llama** | Open-source text generation |
+| Amazon | **Titan** | Text, embeddings, and image generation |
+| Mistral AI | **Mistral / Mixtral** | Fast, efficient text generation |
+
+</p>
 
 ---
 
 ## 🧠 Key Concepts
 
-| Term | What It Means |
+| Term | Simple Explanation |
 |---|---|
-| **Foundation Model** | A large AI pre-trained on massive datasets — ready to use |
+| **Foundation Model** | A giant AI pre-trained on massive data — ready to use immediately |
 | **Prompt** | The instruction or question you send to the AI |
-| **Inference** | The process of the AI generating a response |
-| **Playground** | A browser tool to test models without writing any code |
-| **Knowledge Base** | Connect your own documents so the AI answers from your content |
+| **Inference** | The AI generating a response from your prompt |
+| **Playground** | A browser-based tool to test models without writing any code |
 
 ---
 
@@ -52,65 +56,47 @@ Follow along with the facilitator:
 
 ```
 AWS Console → Search: Bedrock → Click Amazon Bedrock
-→ Click "Get started"
 → Left sidebar → Playgrounds → Text
-→ Select a model (e.g., Claude Instant)
-→ Type a prompt in the text box
-→ Click Run
+→ Select a model (e.g., Claude Instant or Titan Text)
+→ Type a prompt → Click Run
 ```
 
-**My prompt:**
-```
-_______________________________________________
-```
-
-**What the AI responded:**
-```
-_______________________________________________
-_______________________________________________
-```
-
-- [ ] ✅ I tried the Bedrock text playground
+**Prompt ideas to try:**
+- *"Explain what Amazon S3 is in 3 sentences for a beginner"*
+- *"Write a welcome message for an AWS cloud workshop at DBIT"*
+- *"What are 3 career paths for an AIML student who learns cloud computing?"*
 
 ---
 
-## 💡 Why Does This Matter for AIML Students?
+## 💡 Why This Matters for AIML Students
 
-Bedrock is what professional AI developers use to:
-- Build intelligent chatbots and assistants
-- Summarize long documents automatically
-- Generate code from plain English descriptions
-- Power recommendation systems and search features
+Bedrock powers real-world applications like:
+- Intelligent chatbots and virtual assistants
+- Document summarization at scale
+- Code generation from plain English descriptions
+- Smart recommendation and search systems
 
-You will see Bedrock again tomorrow through **PartyRock** — a no-code AI builder powered by Bedrock.
-
----
-
-## 💬 Reflection
-
-```
-Think of one problem in your college or community
-that a Generative AI app could help solve:
-
-→ _______________________________________________
-  _______________________________________________
-
-What is the difference between a Foundation Model
-and a model you train yourself?
-
-→ _______________________________________________
-  _______________________________________________
-```
+Tomorrow you will see Bedrock in action again through **PartyRock** — a no-code AI builder powered by Bedrock.
 
 ---
 
-## ✏️ My Notes
+## 🌐 The Conversation Continues Online
 
-```
-_______________________________________________
-_______________________________________________
-_______________________________________________
-```
+> 💬 What creative use case did you think of for Generative AI?
+> Share it with us on Instagram:
+> **[@awssbg_dbit](https://www.instagram.com/awssbg_dbit/)**
+> **#AWSBedrock #GenerativeAI #AWSBuildersLab**
+
+Stay connected for upcoming Bedrock and AI events:
+
+<p align="center">
+
+| | |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Event announcements and resources |
+| 📸 [Instagram](https://www.instagram.com/awssbg_dbit/) | Workshop highlights and AI tips |
+
+</p>
 
 ---
 
@@ -119,15 +105,16 @@ _______________________________________________
 - [ ] I understand what a Foundation Model is
 - [ ] I understand what Amazon Bedrock is used for
 - [ ] I tried the Bedrock Playground with at least one prompt
-- [ ] I can name at least two AI models available on Bedrock
+- [ ] I can name two AI models available on Bedrock
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **AI EXPLORER 🤖** — You just talked to an AI running on AWS infrastructure.
+> ### 🤖 AI EXPLORER
+> You just had a conversation with an AI running on AWS infrastructure.
 
 ---
 
-> ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 09 — Day 1 Resource Teardown](09-teardown-day1.md)
+> ✅ **Done? Final step for Day 1:**
+> ### 👉 [Chapter 09 — Day 1 Resource Teardown](09-teardown-day1.md)

@@ -12,119 +12,97 @@ Build a no-code Generative AI application in minutes using PartyRock — a free,
 
 ## 🎉 What is PartyRock?
 
-**PartyRock** at **https://partyrock.aws/** is a visual AI app builder where anyone can create multi-widget Generative AI applications without writing code, without an AWS account, and without a credit card.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="70" alt="AWS"/>
+  <br/>
+  <b>PartyRock — partyrock.aws</b><br/>
+  Powered by Amazon Bedrock
+</p>
 
-It is built on top of Amazon Bedrock — so you are using the same foundation models that professional developers use, just through a visual interface.
-
----
-
-## ✨ What Makes PartyRock Special
+PartyRock lets anyone build multi-widget AI applications in a browser — no code, no AWS account, no credit card needed.
 
 | Feature | What It Means |
 |---|---|
 | No AWS account needed | Sign in with Google, Apple, or Amazon |
-| Free daily usage | Build and experiment without any cost |
-| Visual widget builder | Drag, drop, and connect AI components |
-| Multiple AI models | Choose Claude, Llama, Titan and more |
+| Free daily usage | Build and experiment without cost |
+| Visual widget builder | Drag, drop, and connect AI blocks |
+| Multiple AI models | Claude, Llama, Titan, and more |
 | Prompt chaining | One widget's output feeds into the next |
 | Public sharing | Share your app with anyone via a link |
 | App remixing | Others can copy and customize your app |
 
 ---
 
-## 🧩 Widget Types in PartyRock
+## 🧩 Widget Types
 
 | Widget | What It Does |
 |---|---|
-| **User Input** | A text box for users to type into |
-| **Text Generation** | AI writes text based on your prompt |
+| **User Input** | Text box for users to type into |
+| **Text Generation** | AI generates text from your prompt |
 | **Image Generation** | AI creates an image from a description |
-| **Chatbot** | A back-and-forth conversation interface |
-| **@WidgetName** | Reference another widget's output in your prompt |
+| **Chatbot** | Back-and-forth conversation with AI |
+| **@WidgetName** | Reference one widget's output inside another |
 
 ---
 
 ## 🖥️ Build Your First AI App — Right Now
 
-**Step 1** → Go to **https://partyrock.aws/**
+**Step 1** → Go to **[https://partyrock.aws/](https://partyrock.aws/)**
 
 **Step 2** → Click **Sign in** using Google, Apple, or Amazon
 
 **Step 3** → Click **Build your own app**
 
-**Step 4** → Describe your app idea in plain English
+**Step 4** → Describe your app in plain English. Some ideas:
+- *"A quiz generator that creates 5 questions from any topic"*
+- *"A study notes summarizer for AIML students"*
+- *"A chatbot that helps me prepare for the AWS Cloud Practitioner exam"*
+- *"An app that writes a career advice letter based on a student's interests"*
 
-Some ideas to get you started:
-- *"An app that generates 5 quiz questions from any topic I type"*
-- *"A study notes generator that summarizes any subject I give it"*
-- *"A chatbot that helps me prepare for AWS certification exams"*
-- *"An app that turns a student's name and interests into a career advice letter"*
+**Step 5** → PartyRock generates a layout with widgets automatically
 
-**Step 5** → PartyRock generates a starting layout with widgets automatically
+**Step 6** → Customize — change prompts, add inputs, chain outputs together
 
-**Step 6** → Customize the widgets — change prompts, add inputs, chain outputs
-
-**Step 7** → Click **Publish** to get a shareable link
+**Step 7** → Click **Publish** → Share the link
 
 ---
 
-## ✏️ My App
+## 🌐 Share Your PartyRock App
 
-```
-My app idea:
-→ _______________________________________________
-  _______________________________________________
+> 🎨 You just built an AI app without writing any code.
+> Share your app link with us:
+> **[@awssbg_dbit](https://www.instagram.com/awssbg_dbit/)** on Instagram
+> **#PartyRock #AWSBuildersLab #GenerativeAI #HexaVerse26**
 
-My app URL (after publishing):
-→ _______________________________________________
-```
+A PartyRock Hackathon is coming. Stay tuned:
 
-- [ ] ✅ I signed in to PartyRock
-- [ ] ✅ I built or explored at least one app
+<p align="center">
 
----
+| | |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Hackathon announcements |
+| 📸 [Instagram](https://www.instagram.com/awssbg_dbit/) | Event highlights and app showcases |
+| 🌐 [Official Website](https://awsevents.dbit.edu.in/) | Upcoming events calendar |
 
-## 🧠 Reflection
-
-```
-How is building an app on PartyRock different from
-just using ChatGPT?
-
-→ _______________________________________________
-  _______________________________________________
-
-What would you need to build the same app using the
-full Bedrock API instead of PartyRock?
-
-→ _______________________________________________
-  _______________________________________________
-```
-
----
-
-## ✏️ My Notes
-
-```
-_______________________________________________
-_______________________________________________
-```
+</p>
 
 ---
 
 ## ✅ Chapter Checklist
 
-- [ ] I understand what PartyRock is and how it relates to Bedrock
-- [ ] I signed in to partyrock.aws
-- [ ] I created or explored at least one AI app
-- [ ] I understand what prompt chaining means
+- [ ] Signed in to partyrock.aws
+- [ ] Built or explored at least one AI app
+- [ ] Understand what prompt chaining means
+- [ ] Published and shared app link
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **GENERATIVE CREATOR 🎨** — You built an AI app. From scratch. In minutes.
+> ### 🎨 GENERATIVE CREATOR
+> You built an AI-powered app. From scratch. In minutes.
 
 ---
 
 > ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 14 — AWS Certifications & Career Guidance](14-certifications.md)
+> ### 👉 [Chapter 14 — AWS Certifications & Career Guidance](14-certifications.md)

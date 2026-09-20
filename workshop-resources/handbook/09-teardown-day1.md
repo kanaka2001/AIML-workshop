@@ -6,46 +6,32 @@
 
 ## 🎯 What This Session Is About
 
-Safely delete all cloud resources created today. This is a professional skill — not an optional step.
+Safely delete all cloud resources created today. This is a professional discipline — not optional.
 
----
-
-## 💸 Why Teardown Matters
-
-AWS charges for resources that are **running or stored**, even when you are not actively using them. A single forgotten EC2 instance can accumulate charges overnight.
-
-> Teardown is not the end of the work. It is part of the work.
+> 💸 AWS charges for resources that are running or stored even when you are not using them. A forgotten EC2 instance can rack up charges overnight.
 
 ---
 
 ## 🧹 Teardown Checklist
 
-Work through each item with the facilitator:
-
----
-
 ### 1. Terminate EC2 Instance
 
 ```
-AWS Console → EC2 → Instances
-→ Select your instance (my-first-instance)
-→ Instance state → Terminate instance
-→ Confirm termination
+EC2 → Instances → Select: my-first-instance
+→ Instance state → Terminate instance → Confirm
 ```
 
-- [ ] ✅ EC2 instance terminated
-- [ ] ✅ Instance state shows: Terminated
+- [ ] ✅ EC2 instance terminated — status shows Terminated
 
 ---
 
 ### 2. Delete S3 Bucket
 
 ```
-AWS Console → S3
-→ Click your bucket name
+S3 → Click your bucket name
 → Select all objects → Delete → Type "permanently delete" → Confirm
-→ Go back to S3 dashboard
-→ Select your bucket → Delete bucket → Type bucket name → Confirm
+→ Back to S3 dashboard → Select bucket
+→ Delete bucket → Type bucket name → Confirm
 ```
 
 - [ ] ✅ All S3 objects deleted
@@ -55,15 +41,14 @@ AWS Console → S3
 
 ### 3. Delete IAM User (Optional)
 
-Keep the IAM user if you want to use it on Day 2. Otherwise:
+Keep the IAM user if you plan to use it on Day 2. Otherwise:
 
 ```
-AWS Console → IAM → Users
-→ Select: workshop-student
+IAM → Users → Select: workshop-student
 → Delete → Type username → Confirm
 ```
 
-- [ ] ✅ IAM user deleted (or kept for Day 2)
+- [ ] ✅ IAM user deleted (or kept intentionally for Day 2)
 
 ---
 
@@ -71,80 +56,52 @@ AWS Console → IAM → Users
 
 ```
 AWS Console → Search: Billing → Bills
-→ Check current month charges
-→ Check "Free Tier Usage" to see remaining allocation
+→ Review current month charges
+→ Check "Free Tier Usage" to see remaining allocations
 ```
 
 - [ ] ✅ No unexpected charges visible
 
 ---
 
-## ✏️ What I Learned About Teardown Today
+## 🎉 Day 1 — Complete!
 
-```
-One thing that surprised me about resource cleanup:
+### Badges You Earned Today
 
-→ _______________________________________________
-  _______________________________________________
-```
-
----
-
-## ✅ Chapter Checklist
-
-- [ ] EC2 instance terminated
-- [ ] S3 bucket and objects deleted
-- [ ] IAM user deleted or retained intentionally
-- [ ] Billing dashboard checked
-
----
-
-## 🏆 Badge Unlocked
-
-> **RESPONSIBLE BUILDER 🧹** — A good cloud engineer always cleans up after themselves.
-
----
-
-## 🎉 Day 1 Complete!
-
-### My Day 1 Badge Collection
-
-| Badge | Earned? |
+| Badge | |
 |---|---|
-| ☁️ Cloud Newcomer | ☐ |
-| 🤝 Connected Builder | ☐ |
-| 📜 Cloud Historian | ☐ |
-| 📚 Lifelong Learner | ☐ |
-| 🔐 IAM Guardian | ☐ |
-| 🪣 Static Architect | ☐ |
-| 💻 Cloud Engineer | ☐ |
-| 🤖 AI Explorer | ☐ |
-| 🧹 Responsible Builder | ☐ |
-
-**Badges earned today: ___ / 9**
+| ☁️ Cloud Newcomer | Took your first step into the cloud |
+| 🤝 Connected Builder | Joined the community and made connections |
+| 📜 Cloud Historian | Understood the origins of cloud computing |
+| 📚 Lifelong Learner | Discovered where to keep learning |
+| 🔐 IAM Guardian | Created secure cloud access |
+| 🪣 Static Architect | Hosted a real website on S3 |
+| 💻 Cloud Engineer | Launched a virtual machine on EC2 |
+| 🤖 AI Explorer | Tried Generative AI on Bedrock |
+| 🧹 Responsible Builder | Cleaned up all resources |
 
 ---
 
-### ✏️ My Top 3 Learnings from Day 1
+## 🌐 End of Day — Stay Connected
 
-```
-1. _______________________________________________
-2. _______________________________________________
-3. _______________________________________________
-```
+> 📸 Share your Day 1 experience:
+> **[@awssbg_dbit](https://www.instagram.com/awssbg_dbit/)** on Instagram
+> **#AWSBuildersLab #Day1Done #HexaVerse26**
 
----
+Don't miss Day 2 updates — make sure you are in the WhatsApp channel:
 
-### One question I still have:
+<p align="center">
 
-```
-→ _______________________________________________
-  _______________________________________________
-```
+| | |
+|:---:|:---:|
+| 📢 [WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) | Day 2 resources will be shared here |
+| 🤝 [Meetup Community](https://www.meetup.com/aws-sbg-at-don-bosco-institute-of-technology-bangalore/) | RSVP for future events |
+
+</p>
 
 ---
 
 > ✅ **Day 1 is done. Rest up.**
-> See you tomorrow for Day 2 — it goes deeper.
+> Day 2 goes deeper into ML and Generative AI.
 >
-> 👉 [Chapter 10 — Day 2 Settle-In & Recap](10-recap-day2.md)
+> ### 👉 [Chapter 10 — Day 2 Settle-In & Recap](10-recap-day2.md)

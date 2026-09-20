@@ -6,87 +6,67 @@
 
 ## 🎯 What This Session Is About
 
-Get settled in for Day 2, verify your systems are ready, and quickly recap what you learned on Day 1 before going deeper.
+Get settled in for Day 2, verify all systems are ready, and quickly recap Day 1 before going deeper.
 
 ---
 
 ## 📋 Day 2 Readiness Check
 
 - [ ] Laptop is open and charged
-- [ ] AWS Console is accessible and I am signed in
-- [ ] I remember my AWS account credentials
-- [ ] Ready to go deeper into cloud and ML!
+- [ ] AWS Console is accessible and signed in
+- [ ] Joined the WhatsApp channel for today's resources
 
 ---
 
-## 🔁 Day 1 Recall
+## 🔁 Day 1 Recap — Quick Reference
 
-Test your memory before the facilitator runs the recap. Fill in without looking back:
-
-```
-1. IAM stands for:
-   → _______________________________________________
-
-2. S3 is used for:
-   → _______________________________________________
-
-3. EC2 gives you:
-   → _______________________________________________
-
-4. Bedrock is used for:
-   → _______________________________________________
-
-5. Why do we always do resource teardown?
-   → _______________________________________________
-```
-
----
-
-## 📊 Day 1 Summary — Quick Reference
-
-| Service | What It Does | Key Takeaway |
+| Service | What It Does | Key Rule |
 |---|---|---|
-| **IAM** | Controls who can access AWS and what they can do | Never use Root for daily work |
-| **S3** | Stores files; hosts static websites | No server needed to host a webpage |
-| **EC2** | Virtual machines in the cloud | Pay only while running; terminate when done |
-| **Bedrock** | Access to AI foundation models | Build Generative AI apps without training models |
+| **IAM** | Controls who accesses AWS and what they can do | Never use Root for daily work |
+| **S3** | Stores files and hosts static websites | No server needed |
+| **EC2** | Virtual machines in the cloud | Pay by the hour — always terminate |
+| **Bedrock** | Access AI foundation models via API | Build Generative AI without training models |
 
 ---
 
 ## 🗓️ What You Will Do on Day 2
 
-| Session | What You Will Build or Learn |
-|---|---|
-| SageMaker Canvas Intro | Understand no-code ML |
-| Hands-On MLOps Lab | Build and deploy a customer churn prediction model |
-| PartyRock | Create a no-code AI app in minutes |
+<p align="center">
+
+| Session | What You Will Build |
+|:---:|:---:|
+| SageMaker Canvas | Understand no-code ML |
+| MLOps Lab | Build a customer churn prediction model end-to-end |
+| PartyRock | Create a no-code Generative AI app |
 | Certifications | Map your personal AWS certification path |
-| Teardown | Clean up all Day 2 resources |
+| Teardown | Clean up all Day 2 cloud resources |
+
+</p>
 
 ---
 
-## ✏️ My Notes
+## 🌐 Back for Day 2 — Tell the Community
 
-```
-_______________________________________________
-_______________________________________________
-```
+> 📸 You came back for Day 2. That already puts you ahead.
+> Share it: **[@awssbg_dbit](https://www.instagram.com/awssbg_dbit/)**
+> **#AWSBuildersLab #Day2 #MLOps #HexaVerse26**
 
 ---
 
 ## ✅ Chapter Checklist
 
-- [ ] I reviewed all Day 1 concepts
-- [ ] I can explain IAM, S3, EC2, and Bedrock from memory
-- [ ] I am signed in and ready for Day 2
+- [ ] Reviewed all Day 1 concepts
+- [ ] Can explain IAM, S3, EC2, and Bedrock without notes
+- [ ] Signed in to AWS Console and ready for Day 2
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **DAY 2 READY 🌅** — You came back. That already puts you ahead.
+> ### 🌅 DAY 2 READY
+> You came back. That already puts you ahead.
 
 ---
 
 > ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 11 — SageMaker Canvas Introduction](11-sagemaker-intro.md)
+> ### 👉 [Chapter 11 — SageMaker Canvas Introduction](11-sagemaker-intro.md)

@@ -6,74 +6,63 @@
 
 ## 🎯 What This Session Is About
 
-Before diving into cloud services, this session helps you get comfortable, meet the people around you, and set a personal learning intention for the day.
+Before diving into cloud services, this session helps everyone get comfortable and set a personal learning intention.
 
-Technology is built through collaboration. This is your warm-up.
-
----
-
-## 🎲 Activity: Cloud Connection Icebreaker
-
-Introduce yourself to the person sitting next to you using these four points:
-
-**1. My name is:**
-```
-_______________________________________________
-```
-
-**2. My technical interests are:**
-```
-_______________________________________________
-```
-
-**3. My experience with AWS or cloud platforms:**
-- [ ] Never heard of it before today
-- [ ] Heard of it but never used it
-- [ ] Tried it once or twice
-- [ ] Use it regularly
-
-**4. One thing I want to learn or build today:**
-```
-_______________________________________________
-```
+> Technology is built through collaboration. This is your warm-up.
 
 ---
 
-## 💬 Bonus Question
+## 🎲 Cloud Connection Icebreaker
+
+Turn to the person sitting next to you and share:
+
+1. **Your name and semester**
+2. **One technology you find genuinely interesting**
+3. **Your honest experience with AWS** — never heard of it / heard of it / used it before
+4. **One thing you hope to build or learn today**
+
+---
+
+## 💬 Conversation Starter for the Group
 
 > *"If you could build one technology solution to solve a real problem on your campus — what would it be?"*
 
-```
-My idea:
-_______________________________________________
-_______________________________________________
-_______________________________________________
-```
+There are no wrong answers. The best ideas start exactly like this.
 
 ---
 
-## ✏️ My Notes
+## 🌐 Already Here? Connect Online Too
 
-```
-_______________________________________________
-_______________________________________________
-```
+While you are settling in, connect with the community:
+
+<p align="center">
+
+| | |
+|:---:|:---:|
+| 📢 **Workshop updates & resources** | [Join WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X) |
+| 📸 **Photos & highlights** | [Follow on Instagram](https://www.instagram.com/awssbg_dbit/) |
+| 💼 **Professional network** | [Connect on LinkedIn](https://www.linkedin.com/company/aws-sbg-dbit/) |
+
+</p>
+
+> 💬 The **WhatsApp channel** is where the facilitators will share dataset files, lab links, and live updates throughout the workshop. Make sure you are in.
 
 ---
 
 ## ✅ Chapter Checklist
 
-- [ ] I introduced myself to at least one person around me
-- [ ] I have written my learning intention for today
-- [ ] I feel comfortable asking questions during the sessions
+- [ ] Introduced myself to at least one person around me
+- [ ] Joined the WhatsApp channel for workshop updates
+- [ ] I am settled in and ready to start
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **CONNECTED BUILDER 🤝** — You are not learning alone. You are part of a team.
+> ### 🤝 CONNECTED BUILDER
+> You are not learning alone. You are part of a team.
 
 ---
 
 > ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 03 — History of Cloud & AWS](03-cloud-history.md)
+> ### 👉 [Chapter 03 — History of Cloud & AWS](03-cloud-history.md)

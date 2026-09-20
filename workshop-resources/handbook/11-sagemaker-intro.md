@@ -6,21 +6,34 @@
 
 ## 🎯 What This Session Is About
 
-Understand what SageMaker Canvas is, why it matters for AIML students, and what you are going to build in the next lab.
+Understand what SageMaker Canvas is, why it matters for AIML students, and exactly what you are about to build.
 
 ---
 
 ## 🧠 What is Amazon SageMaker Canvas?
 
-**Amazon SageMaker Canvas** is a no-code machine learning tool. It lets you build, train, and deploy ML models through a visual interface — without writing a single line of code.
+<p align="center">
+  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/SageMaker.svg" width="80" alt="SageMaker"/>
+  <br/>
+  <b>Amazon SageMaker Canvas</b>
+</p>
 
-| Traditional ML Workflow | With SageMaker Canvas |
-|---|---|
-| Write Python code for data prep | Automatic data preparation |
-| Choose algorithms manually | AutoML selects the best algorithm |
-| Tune hyperparameters | Automatic tuning |
-| Evaluate models with code | Visual accuracy and feature charts |
-| Deploy with infrastructure setup | One-click prediction |
+**SageMaker Canvas** is a no-code machine learning tool. It lets you build, train, and deploy ML models through a visual interface — without writing a single line of code.
+
+<p align="center">
+
+```
+TRADITIONAL ML                    SAGEMAKER CANVAS
+──────────────────────────        ──────────────────────────────
+Write Python for data prep        Automatic data preparation
+Choose algorithms manually        AutoML selects best algorithm
+Tune hyperparameters by hand      Automatic tuning
+Deploy with infra setup           One-click prediction
+
+RESULT: Weeks of work             RESULT: Under 10 minutes
+```
+
+</p>
 
 ---
 
@@ -28,49 +41,43 @@ Understand what SageMaker Canvas is, why it matters for AIML students, and what 
 
 | Problem Type | What It Predicts | Example |
 |---|---|---|
-| **Binary Classification** | One of two outcomes (Yes/No) | Will this customer churn? |
+| **Binary Classification** | Yes or No | Will this customer leave? |
 | **Multi-class Classification** | One of many categories | Which department handles this ticket? |
-| **Regression** | A number | What price will this house sell for? |
-| **Time-series Forecasting** | Future values over time | What will sales be next month? |
+| **Regression** | A number | What will this house sell for? |
+| **Time-series Forecasting** | Future values | What will sales be next month? |
 
 ---
 
-## 🎯 What You Will Build in the Next Lab
+## 🎯 What You Are Building Today
 
 **Customer Churn Predictor**
 
-A telecom company wants to know: *which customers are likely to cancel their subscription?*
+A telecom company wants to know: *which customers are most likely to cancel their subscription next month?*
 
-You will:
-1. Import a dataset of real customer usage records
-2. Tell Canvas which column to predict (the `Churn` column)
-3. Let Canvas automatically train an ML model
-4. Review accuracy and which factors drive churn
-5. Make live predictions for individual customers
+Your pipeline:
+
+<p align="center">
+
+```
+Import CSV dataset
+       ↓
+Select prediction target (Churn column)
+       ↓
+Canvas trains ML model automatically (AutoML)
+       ↓
+Review accuracy & which factors drive churn
+       ↓
+Make live predictions for individual customers
+```
+
+</p>
 
 ---
 
-## 🧠 What is MLOps?
+## 🌐 Follow the MLOps Journey Live
 
-**MLOps (Machine Learning Operations)** is the practice of building, deploying, and maintaining ML models reliably in production — the same way DevOps does for software.
-
-The pipeline you will build today:
-
-```
-Raw Data → Import → Validate → Train → Evaluate → Predict
-```
-
-This is a complete end-to-end MLOps pipeline.
-
----
-
-## ✏️ My Notes
-
-```
-_______________________________________________
-_______________________________________________
-_______________________________________________
-```
+> 📢 Resources for today's lab are in the WhatsApp channel — make sure you have the CSV file downloaded.
+> **[Join WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X)**
 
 ---
 
@@ -78,16 +85,17 @@ _______________________________________________
 
 - [ ] I understand what SageMaker Canvas does
 - [ ] I understand what Binary Classification means
-- [ ] I understand what customer churn is and why predicting it matters
-- [ ] I have the dataset CSV file ready (shared by the facilitator)
+- [ ] I have the customer churn CSV file from the facilitator
+- [ ] I understand what the `Churn` column represents
 
 ---
 
 ## 🏆 Badge Unlocked
 
-> **ML INITIATE 🧠** — You understand what you are about to build. That is half the battle.
+> ### 🧠 ML INITIATE
+> You understand what you are about to build. That is half the battle.
 
 ---
 
-> ✅ **Done? Move to the next chapter:**
-> 👉 [Chapter 12 — Hands-On Lab: MLOps Pipeline](12-lab-mlops.md)
+> ✅ **Done? The main lab starts now:**
+> ### 👉 [Chapter 12 — Hands-On Lab: MLOps Pipeline](12-lab-mlops.md)
