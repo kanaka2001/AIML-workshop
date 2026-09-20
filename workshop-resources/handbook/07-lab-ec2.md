@@ -44,6 +44,12 @@ AWS Console → Search: EC2 → Click EC2
 → Click "Launch instance" (orange button)
 ```
 
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-26-59.png" width="720" alt="EC2 Console — Launch instance"/>
+  <br/>
+  <em>EC2 Console — click "Launch instance" to start configuring your virtual machine</em>
+</p>
+
 ---
 
 ### Step 2 — Name and OS
@@ -99,6 +105,12 @@ Storage  →  Leave default (8 GiB gp3)
 ```
 
 Wait until **Instance state** shows **Running ✅**
+
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-27-08.png" width="720" alt="EC2 instance running"/>
+  <br/>
+  <em>Instance state: Running — your virtual machine is live in the AWS cloud</em>
+</p>
 
 ---
 

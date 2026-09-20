@@ -97,6 +97,12 @@ Encryption         →  Leave default
 → Click "Create bucket"
 ```
 
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-25-09.png" width="720" alt="S3 Console — Create bucket"/>
+  <br/>
+  <em>S3 Console — click "Create bucket" to get started</em>
+</p>
+
 ---
 
 ### Phase B — Upload Your Files
@@ -108,6 +114,18 @@ Objects tab → Click "Upload"
 → Click "Upload"
 → Wait for green "Upload succeeded" banner → Click "Close"
 ```
+
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-25-26.png" width="720" alt="S3 bucket created — Objects tab"/>
+  <br/>
+  <em>Your bucket is created — click Upload to add your HTML files</em>
+</p>
+
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-25-50.png" width="720" alt="S3 Upload files"/>
+  <br/>
+  <em>Upload succeeded — both index.html and error.html are now in your bucket</em>
+</p>
 
 ---
 
@@ -123,6 +141,12 @@ Error document          →  error.html
 
 → Click "Save changes"
 ```
+
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-26-03.png" width="720" alt="S3 Static website hosting settings"/>
+  <br/>
+  <em>Enable static website hosting and set index.html as the root document</em>
+</p>
 
 ---
 
@@ -153,6 +177,12 @@ Paste this — replace `YOUR-BUCKET-NAME` with your actual bucket name:
 → Click "Save changes"
 ```
 
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-26-14.png" width="720" alt="S3 Bucket policy — public read"/>
+  <br/>
+  <em>Paste the bucket policy and save — this makes your files publicly readable</em>
+</p>
+
 ---
 
 ### Phase E — Visit Your Live Website
@@ -161,6 +191,12 @@ Paste this — replace `YOUR-BUCKET-NAME` with your actual bucket name:
 Properties tab → Static website hosting section
 → Click the Bucket website endpoint URL
 ```
+
+<p align="center">
+  <img src="../Screenshot_2026-09-20_23-26-26.png" width="720" alt="S3 website endpoint — live"/>
+  <br/>
+  <em>Your bucket website endpoint is now active — click the URL to see your live site</em>
+</p>
 
 **Your website is now live on the internet.** 🎉
 
