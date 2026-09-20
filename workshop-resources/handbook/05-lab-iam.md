@@ -57,28 +57,20 @@ AWS Console → Search bar → Type: IAM → Click IAM
 You should see the **IAM Dashboard** with a menu on the left side.
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-23-27.png" width="720" alt="IAM Dashboard"/>
+  <img src="../iam-dashboard.png" width="720" alt="IAM Dashboard"/>
   <br/>
   <em>IAM Dashboard — your access management control panel</em>
 </p>
 
 ---
 
-### Step 2 — Go to Users
+### Step 2 — Go to Users → Create User
 
 ```
 Left sidebar → Users → Click "Create user" (orange button, top right)
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-23-44.png" width="720" alt="IAM Users list"/>
-  <br/>
-  <em>IAM Users list — click "Create user" to begin</em>
-</p>
-
----
-
-### Step 3 — Enter User Details
+Fill in the user details on the next screen:
 
 ```
 User name → Enter: workshop-student
@@ -94,14 +86,14 @@ Password → Select: Custom password
 ```
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-05.png" width="720" alt="Create user — User details"/>
+  <img src="../iam-create-user-step1-details.png" width="720" alt="IAM Create User — Specify user details"/>
   <br/>
   <em>Step 1 — fill in the username and enable console access</em>
 </p>
 
 ---
 
-### Step 4 — Assign Permissions
+### Step 3 — Assign Permissions
 
 ```
 Permissions options → Select: Attach policies directly
@@ -116,29 +108,23 @@ Search box → Type: AdministratorAccess
 > 💡 **AdministratorAccess** grants full permissions — ideal for a learning sandbox. In production environments, always use the minimum permissions required.
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-31.png" width="720" alt="Attach permissions policy"/>
+  <img src="../iam-create-user-step2-permissions.png" width="720" alt="IAM Create User — Set permissions"/>
   <br/>
-  <em>Step 2 — attach AdministratorAccess policy</em>
+  <em>Step 2 — select "Attach policies directly" and check AdministratorAccess</em>
 </p>
 
 ---
 
-### Step 5 — Review and Create
+### Step 4 — Review and Create
 
 ```
 Review the User details and Permissions summary
 → Click "Create user"
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-43.png" width="720" alt="Review and create user"/>
-  <br/>
-  <em>Step 3 — review everything before clicking Create user</em>
-</p>
-
 ---
 
-### Step 6 — Save the Login Details
+### Step 5 — Save the Login Details
 
 ```
 → Click "Download .csv file"   ← Do this now
@@ -147,15 +133,9 @@ OR copy the Console sign-in URL
 
 > ⚠️ This is the **only time** you can download these credentials. Do not skip this step.
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-56.png" width="720" alt="User created — download credentials"/>
-  <br/>
-  <em>User created — download the .csv file now before closing this page</em>
-</p>
-
 ---
 
-### Step 7 — Verify the Login Works
+### Step 6 — Verify the Login Works
 
 ```
 Open a Private / Incognito browser window

@@ -56,10 +56,27 @@ Follow along with the facilitator:
 
 ```
 AWS Console → Search: Bedrock → Click Amazon Bedrock
+```
+
+You will land on the Bedrock Overview page showing the model catalog, quickstart, and API key options.
+
+<p align="center">
+  <img src="../bedrock-overview.png" width="720" alt="Amazon Bedrock Overview"/>
+  <br/>
+  <em>Amazon Bedrock console — Model catalog, Quickstart, and Playground all in one place</em>
+</p>
+
+```
 → Left sidebar → Playgrounds → Text
 → Select a model (e.g., Claude Instant or Titan Text)
 → Type a prompt → Click Run
 ```
+
+<p align="center">
+  <img src="../bedrock-playground.png" width="720" alt="Amazon Bedrock Playground"/>
+  <br/>
+  <em>Bedrock Playground — select a model and start chatting with AI directly in the browser</em>
+</p>
 
 **Prompt ideas to try:**
 - *"Explain what Amazon S3 is in 3 sentences for a beginner"*

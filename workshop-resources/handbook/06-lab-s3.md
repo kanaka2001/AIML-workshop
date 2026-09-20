@@ -76,16 +76,42 @@ Create these two files on your laptop before starting.
 
 ## 👣 Step-by-Step
 
-### Phase A — Create the S3 Bucket
+### Phase A — Navigate to S3
 
 ```
-AWS Console → Search: S3 → Click S3 → Click "Create bucket"
+AWS Console → Search: S3 → Click S3
+```
 
+You will land on the S3 service page. Click **"Create bucket"** to begin.
+
+<p align="center">
+  <img src="../s3-service-landing.png" width="720" alt="Amazon S3 service landing page"/>
+  <br/>
+  <em>Amazon S3 — click "Create a bucket" to get started</em>
+</p>
+
+---
+
+### Phase B — Create the S3 Bucket
+
+On the next screen you will see all the bucket configuration options. Fill them in as follows:
+
+```
 Bucket name  →  Enter your unique bucket name
 AWS Region   →  Asia Pacific (Mumbai) ap-south-1
 
 Object Ownership  →  Leave: ACLs disabled (recommended)
+```
 
+<p align="center">
+  <img src="../s3-create-bucket-config.png" width="720" alt="S3 Create bucket — General configuration"/>
+  <br/>
+  <em>Enter your unique bucket name and select Mumbai region</em>
+</p>
+
+Scroll down to the **Block Public Access** section:
+
+```
 Block Public Access:
   ☐ UNCHECK "Block all public access"
   ✅ CHECK  "I acknowledge that current settings might result
@@ -98,38 +124,33 @@ Encryption         →  Leave default
 ```
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-09.png" width="720" alt="S3 Console — Create bucket"/>
+  <img src="../s3-create-bucket-public-access.png" width="720" alt="S3 Create bucket — Block Public Access and Versioning"/>
   <br/>
-  <em>S3 Console — click "Create bucket" to get started</em>
+  <em>Uncheck "Block all public access" and acknowledge — then click Create bucket</em>
 </p>
 
 ---
 
-### Phase B — Upload Your Files
+### Phase C — Upload Your Files
+
+After creating the bucket you will see the Buckets list. Click your bucket name to open it.
+
+<p align="center">
+  <img src="../s3-buckets-list-empty.png" width="720" alt="S3 Buckets list"/>
+  <br/>
+  <em>Your new bucket appears in the list — click its name to open it</em>
+</p>
 
 ```
-Click your bucket name in the list
 Objects tab → Click "Upload"
 → Add files → Select index.html and error.html
 → Click "Upload"
 → Wait for green "Upload succeeded" banner → Click "Close"
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-26.png" width="720" alt="S3 bucket created — Objects tab"/>
-  <br/>
-  <em>Your bucket is created — click Upload to add your HTML files</em>
-</p>
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-50.png" width="720" alt="S3 Upload files"/>
-  <br/>
-  <em>Upload succeeded — both index.html and error.html are now in your bucket</em>
-</p>
-
 ---
 
-### Phase C — Enable Static Website Hosting
+### Phase D — Enable Static Website Hosting
 
 ```
 Properties tab → Scroll to bottom → "Static website hosting" → Edit
@@ -142,15 +163,9 @@ Error document          →  error.html
 → Click "Save changes"
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-03.png" width="720" alt="S3 Static website hosting settings"/>
-  <br/>
-  <em>Enable static website hosting and set index.html as the root document</em>
-</p>
-
 ---
 
-### Phase D — Add the Public Bucket Policy
+### Phase E — Add the Public Bucket Policy
 
 ```
 Permissions tab → Bucket policy → Edit
@@ -177,26 +192,14 @@ Paste this — replace `YOUR-BUCKET-NAME` with your actual bucket name:
 → Click "Save changes"
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-14.png" width="720" alt="S3 Bucket policy — public read"/>
-  <br/>
-  <em>Paste the bucket policy and save — this makes your files publicly readable</em>
-</p>
-
 ---
 
-### Phase E — Visit Your Live Website
+### Phase F — Visit Your Live Website
 
 ```
 Properties tab → Static website hosting section
 → Click the Bucket website endpoint URL
 ```
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-26.png" width="720" alt="S3 website endpoint — live"/>
-  <br/>
-  <em>Your bucket website endpoint is now active — click the URL to see your live site</em>
-</p>
 
 **Your website is now live on the internet.** 🎉
 
