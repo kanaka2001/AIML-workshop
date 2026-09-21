@@ -11,6 +11,8 @@
   --color-primary-dark: #574fd6;
   --color-primary-light: #a89dff;
   --color-accent: #ff6584;
+  --color-aws-orange: #ff9900;
+  --color-aws-orange-dark: #e68a00;
   --color-bg: #0f0f13;
   --color-bg-secondary: #1a1a24;
   --color-bg-card: #1e1e2e;
@@ -171,6 +173,22 @@ img {
   background: var(--color-primary);
   color: var(--color-white);
   transform: translateY(-2px);
+}
+
+/* AWS orange button */
+.btn--aws {
+  background: var(--color-aws-orange);
+  color: #000;
+  border-color: var(--color-aws-orange);
+  font-weight: 700;
+}
+
+.btn--aws:hover,
+.btn--aws:focus-visible {
+  background: var(--color-aws-orange-dark);
+  border-color: var(--color-aws-orange-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(255, 153, 0, 0.4);
 }
 
 /* Focus styles for accessibility */

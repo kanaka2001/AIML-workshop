@@ -1,57 +1,49 @@
 import React from 'react'
 import './About.css'
 
-const About = () => {
-  const details = [
-    { label: 'Name', value: 'Your Name' },
-    { label: 'Degree', value: 'B.Tech in Computer Science' },
-    { label: 'University', value: 'Your University Name' },
-    { label: 'Year', value: '3rd Year (2024–2025)' },
-    { label: 'Location', value: 'Your City, Country' },
-    { label: 'Email', value: 'your.email@example.com' },
-  ]
+const aboutBlocks = [
+  {
+    heading: '🎯 The Challenge',
+    text: 'PartyRock Hack 2026 is an intense, one-day offline competition at Don Bosco Institute of Technology. Designed specifically for AIML students, participants solve real-world industrial and campus challenges using AWS PartyRock generative AI tools.',
+  },
+  {
+    heading: '🤖 Powered by AWS PartyRock',
+    text: 'Without needing deep infrastructure boilerplate, builders leverage Amazon Bedrock models via PartyRock to construct customised AI assistants, dataset summary engines, and interactive workflow tools — in record time.',
+  },
+  {
+    heading: '📍 Venue & Participation',
+    text: 'DBIT Campus · SH001 Hall · Offline One-Day Event. Gated access for AIML students via pre-whitelisted Gmail authentication.',
+  },
+]
 
+const About = () => {
   return (
     <section id="about" className="about section" aria-labelledby="about-heading">
       <div className="container">
-        <h2 id="about-heading" className="section__title">About Me</h2>
-        <p className="section__subtitle">Get to know me better</p>
+        <h2 className="section__title" id="about-heading">About the Event</h2>
+        <p className="section__subtitle">Architecting Generative AI Solutions on AWS</p>
+
+        <p className="about__lead">
+          A premier solo cloud-innovation hackathon designed to empower AIML builders to rapidly
+          prototype and pitch intelligent applications — all in a single day.
+        </p>
 
         <div className="about__grid">
-          {/* Text side */}
-          <div className="about__text">
-            <p>
-              Hello! I'm a passionate and dedicated Computer Science student with a strong interest in
-              web development, machine learning, and problem-solving. I love turning ideas into reality
-              through clean and efficient code.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source
-              projects, or participating in hackathons. I'm always eager to learn and grow as a developer.
-            </p>
-            <p>
-              I'm currently looking for internship and collaboration opportunities where I can apply my
-              skills and continue to learn from experienced professionals.
-            </p>
+          {aboutBlocks.map(({ heading, text }) => (
+            <div className="about__block" key={heading}>
+              <h3 className="about__block-heading">{heading}</h3>
+              <p className="about__block-text">{text}</p>
+            </div>
+          ))}
+        </div>
 
-            {/* Resume download — replace href with actual resume file path */}
-            <a href="/resume.pdf" download className="btn btn--primary about__resume-btn" aria-label="Download Resume PDF">
-              Download Resume
-            </a>
-          </div>
-
-          {/* Details side */}
-          <div className="about__details">
-            <h3 className="about__details-title">Personal Details</h3>
-            <ul className="about__details-list" role="list">
-              {details.map(({ label, value }) => (
-                <li key={label} className="about__details-item">
-                  <span className="about__details-label">{label}:</span>
-                  <span className="about__details-value">{value}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Organiser badge */}
+        <div className="about__organiser">
+          <span className="about__organiser-badge">🏫 Official Organizers</span>
+          <p className="about__organiser-text">
+            Hosted jointly by the <strong>Department of Artificial Intelligence &amp; Machine Learning</strong> and the{' '}
+            <strong>AWS Student Builder Group at DBIT</strong>.
+          </p>
         </div>
       </div>
     </section>

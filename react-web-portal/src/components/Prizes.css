@@ -1,0 +1,92 @@
+.prizes {
+  background: var(--color-bg-secondary);
+}
+
+.prizes__podium {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-bottom: var(--space-10);
+}
+
+.prize-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+  transition: transform var(--transition-base), border-color var(--transition-base), box-shadow var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.prize-card--gold {
+  border-color: rgba(255, 215, 0, 0.35);
+  background: linear-gradient(160deg, rgba(255,215,0,0.06) 0%, var(--color-bg-card) 60%);
+}
+.prize-card--silver {
+  border-color: rgba(192,192,192,0.3);
+  background: linear-gradient(160deg, rgba(192,192,192,0.05) 0%, var(--color-bg-card) 60%);
+}
+.prize-card--bronze {
+  border-color: rgba(205,127,50,0.3);
+  background: linear-gradient(160deg, rgba(205,127,50,0.05) 0%, var(--color-bg-card) 60%);
+}
+
+.prize-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.prize-card__medal {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.prize-card__place {
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: var(--space-2);
+}
+
+.prize-card__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* Participation certificates */
+.prizes__cert {
+  background: linear-gradient(135deg, rgba(255,153,0,0.07), rgba(255,153,0,0.02));
+  border: 1px solid rgba(255,153,0,0.2);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.prizes__cert-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.prizes__cert-title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--space-3);
+}
+
+.prizes__cert-text {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .prizes__podium { grid-template-columns: 1fr; }
+}

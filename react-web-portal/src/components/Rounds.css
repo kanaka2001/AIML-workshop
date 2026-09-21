@@ -1,0 +1,119 @@
+.rounds {
+  background: var(--color-bg-secondary);
+}
+
+.rounds__note {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-12);
+  font-style: italic;
+}
+
+.rounds__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+.round-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  position: relative;
+  overflow: hidden;
+  transition: border-color var(--transition-base), transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.round-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--color-aws-orange);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.round-card:hover {
+  border-color: rgba(255, 153, 0, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(255, 153, 0, 0.12);
+}
+
+.round-card:hover::before {
+  opacity: 1;
+}
+
+.round-card__badge {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-aws-orange);
+  background: rgba(255, 153, 0, 0.12);
+  border: 1px solid rgba(255, 153, 0, 0.25);
+  border-radius: var(--radius-full);
+  padding: 0.25rem 0.85rem;
+  align-self: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.round-card__title {
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  color: var(--color-white);
+}
+
+.round-card__qualifier {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  border-left: 3px solid var(--color-aws-orange);
+  padding-left: var(--space-3);
+}
+
+.round-card__desc {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.round-card__details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+}
+
+.round-card__detail {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  display: flex;
+  gap: var(--space-2);
+}
+
+.round-card__detail strong {
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.rounds__live-note {
+  text-align: center;
+  margin-top: var(--space-10);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  .rounds__grid { grid-template-columns: 1fr; }
+}
