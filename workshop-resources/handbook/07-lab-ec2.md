@@ -41,21 +41,18 @@ Consumes power 24/7           Pay only when running
 
 ```
 AWS Console → Search: EC2 → Click EC2
+→ Click "Launch instance" (orange button)
 ```
 
-You will land on the EC2 Dashboard. Click **"Launch instance"** (orange button) to begin.
-
 <p align="center">
-  <img src="../ec2-dashboard.png" width="720" alt="EC2 Dashboard"/>
+  <img src="../Screenshot_2026-09-20_23-26-59.png" width="720" alt="EC2 Console — Launch instance"/>
   <br/>
-  <em>EC2 Dashboard — click "Launch instance" to start configuring your virtual machine</em>
+  <em>EC2 Console — click "Launch instance" to start configuring your virtual machine</em>
 </p>
 
 ---
 
 ### Step 2 — Name and OS
-
-On the Launch an instance page, fill in the name and choose your operating system:
 
 ```
 Name  →  my-first-instance
@@ -63,12 +60,6 @@ Name  →  my-first-instance
 AMI   →  Ubuntu Server 22.04 LTS (HVM), SSD Volume Type
           Architecture: 64-bit (x86)
 ```
-
-<p align="center">
-  <img src="../ec2-launch-ami-selection.png" width="720" alt="EC2 Launch — Name and AMI selection"/>
-  <br/>
-  <em>Enter a name and select Ubuntu from the Quick Start AMIs</em>
-</p>
 
 ---
 
@@ -98,53 +89,32 @@ Key pair  →  Click "Create new key pair"
 
 ### Step 5 — Network Settings
 
-Scroll down to **Key pair (login)** and **Network settings**:
-
 ```
 ✅ Allow SSH traffic from    →  My IP
 ✅ Allow HTTP traffic from the internet
 ```
 
-<p align="center">
-  <img src="../ec2-launch-keypair-network.png" width="720" alt="EC2 Launch — Key pair and Network settings"/>
-  <br/>
-  <em>Select or create a key pair and configure SSH + HTTP access rules</em>
-</p>
-
 ---
 
-### Step 6 — Storage and Launch
+### Step 6 — Launch
 
 ```
 Storage  →  Leave default (8 GiB gp3)
-```
-
-<p align="center">
-  <img src="../ec2-launch-storage.png" width="720" alt="EC2 Launch — Configure storage"/>
-  <br/>
-  <em>Leave storage at default 8 GiB gp3, then click "Launch instance"</em>
-</p>
-
-```
 → Click "Launch instance"
 → Click "View all instances"
 ```
 
----
-
-### Step 7 — Wait for Running State
-
-After launching, you will see the Instances list. Wait until **Instance state** shows **Running ✅**
+Wait until **Instance state** shows **Running ✅**
 
 <p align="center">
-  <img src="../ec2-instances-list.png" width="720" alt="EC2 Instances list"/>
+  <img src="../Screenshot_2026-09-20_23-27-08.png" width="720" alt="EC2 instance running"/>
   <br/>
-  <em>Your instance will appear here — wait for Instance state to show "Running"</em>
+  <em>Instance state: Running — your virtual machine is live in the AWS cloud</em>
 </p>
 
 ---
 
-### Step 8 — (Optional) Connect via SSH
+### Step 7 — (Optional) Connect via SSH
 
 Open your terminal and run:
 
