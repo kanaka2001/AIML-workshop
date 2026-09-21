@@ -13,7 +13,7 @@ Launch a virtual computer in the AWS cloud, note its public IP, and safely termi
 ## 💻 What is Amazon EC2?
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" width="80" alt="Amazon EC2"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Compute/64/Arch_Amazon-EC2_64.svg" width="80" alt="Amazon EC2"/>
   <br/>
   <b>Amazon Elastic Compute Cloud</b>
 </p>

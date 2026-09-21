@@ -13,7 +13,7 @@ Understand what SageMaker Canvas is, why it matters for AIML students, and exact
 ## 🧠 What is Amazon SageMaker Canvas?
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/SageMaker.svg" width="80" alt="SageMaker"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Machine-Learning/64/Arch_Amazon-SageMaker_64.svg" width="80" alt="SageMaker"/>
   <br/>
   <b>Amazon SageMaker Canvas</b>
 </p>

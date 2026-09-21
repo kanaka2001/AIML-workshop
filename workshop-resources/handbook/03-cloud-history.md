@@ -86,15 +86,15 @@ Before 2006 ──  Organizations manage own physical data centers
 ## 🧩 Five Core AWS Services — Quick Look
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM.svg" width="48" alt="IAM"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64.svg" width="48" alt="IAM"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" width="48" alt="S3"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Storage/64/Arch_Amazon-Simple-Storage-Service_64.svg" width="48" alt="S3"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" width="48" alt="EC2"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Compute/64/Arch_Amazon-EC2_64.svg" width="48" alt="EC2"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/Bedrock.svg" width="48" alt="Bedrock"/>
+  <img src="https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg" width="48" alt="Bedrock"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/SageMaker.svg" width="48" alt="SageMaker"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Machine-Learning/64/Arch_Amazon-SageMaker_64.svg" width="48" alt="SageMaker"/>
 </p>
 
 | Service | What It Does |

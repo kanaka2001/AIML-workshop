@@ -13,7 +13,7 @@ Create a new IAM user with AWS Console access — the secure, professional way t
 ## 🔐 What is AWS IAM?
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM.svg" width="80" alt="IAM"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64.svg" width="80" alt="IAM"/>
   <br/>
   <b>AWS Identity and Access Management</b>
 </p>

@@ -13,7 +13,7 @@ Understand what Generative AI is, how Amazon Bedrock makes it accessible to ever
 ## 🤖 What is Amazon Bedrock?
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Machine-Learning/Bedrock.svg" width="80" alt="Amazon Bedrock"/>
+  <img src="https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg" width="80" alt="Amazon Bedrock"/>
   <br/>
   <b>Amazon Bedrock</b>
 </p>

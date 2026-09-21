@@ -13,7 +13,7 @@ Create an S3 bucket, upload a web page, and get your own website live on the int
 ## 🪣 What is Amazon S3?
 
 <p align="center">
-  <img src="https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" width="80" alt="Amazon S3"/>
+  <img src="https://raw.githubusercontent.com/sashee/aws-svg-icons/master/docs/Architecture-Service-Icons_07302021/Arch_Storage/64/Arch_Amazon-Simple-Storage-Service_64.svg" width="80" alt="Amazon S3"/>
   <br/>
   <b>Amazon Simple Storage Service</b>
 </p>
