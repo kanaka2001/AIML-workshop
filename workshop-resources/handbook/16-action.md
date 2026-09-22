@@ -4,17 +4,73 @@
 
 ---
 
+## 📣 Section Overview
+
+This chapter has three action items before you leave today:
+
+| # | Action | Time |
+|---|---|---|
+| 1 | Submit the official AWS feedback form | 2 min |
+| 2 | Submit the AWS SBG–DBIT feedback form | 2 min |
+| 3 | Register for the upcoming PartyRock Hack event | 1 min |
+
+> **Please complete the feedback forms before you leave — it directly helps us improve future workshops and grows the AWS community at DBIT.**
+
+---
+
+## 📝 Feedback Forms
+
+### 1 — Official AWS Event Feedback
+
+This is the **official Amazon Web Services feedback survey** for the event. Your responses go directly to the AWS team and help shape future student programs.
+
+**How to fill it:**
+
+| Field | What to enter |
+|---|---|
+| Name of Student Builder Group | `AWS Student Builder Group at Don Bosco Institute of Technology` |
+| Name of event | `AWS Builders Lab` |
+| Event date | `21 / 09 / 2026` |
+| Type of event | Hands-on workshop covering AWS core services (IAM, S3, EC2, Bedrock, SageMaker) and PartyRock generative AI builder |
+| Other fields | Fill from your own experience |
+
+<p align="center">
+  <a href="https://pulse.amazon/survey/UPCU4UQO?p=0">
+    <img src="../qr-aws-feedback.jpeg" width="220" alt="AWS Official Feedback Form QR Code"/>
+  </a>
+  <br/><br/>
+  <strong>Scan the QR code or click the link below:</strong>
+  <br/>
+  <a href="https://pulse.amazon/survey/UPCU4UQO?p=0"><strong>pulse.amazon/survey/UPCU4UQO</strong></a>
+</p>
+
+---
+
+### 2 — AWS SBG–DBIT Feedback Form
+
+This is **our internal feedback form** for the AWS Student Builders Group at DBIT. Your honest responses help us organise better events, improve workshop content, and understand what you found most valuable.
+
+> Takes less than 2 minutes. Every response counts.
+
+<p align="center">
+  <a href="https://forms.gle/7PzATmjkJSRV6gm16">
+    <img src="../qr-sbg-feedback.jpeg" width="220" alt="AWS SBG DBIT Feedback Form QR Code"/>
+  </a>
+  <br/><br/>
+  <strong>Scan the QR code or click the link below:</strong>
+  <br/>
+  <a href="https://forms.gle/7PzATmjkJSRV6gm16"><strong>forms.gle/7PzATmjkJSRV6gm16</strong></a>
+</p>
+
+---
+
 ## ⚡ Upcoming Signature Event
 
 <p align="center">
-  <span style="font-size:2rem;">🎉</span>
-  <br/>
   <strong>THE PARTYROCK HACK</strong>
   <br/>
   <em>Building the Future with AI</em>
 </p>
-
----
 
 ### 🗓️ Event Details
 
@@ -31,9 +87,9 @@
 
 **PartyRock Hack** is a three-round individual challenge that takes participants from testing their AWS and cloud knowledge to building practical AI-powered applications. Each stage introduces a different kind of problem-solving, making the experience progressively more hands-on.
 
-Participants will work with **AWS PartyRock** to explore data, experiment with AI-powered applications, and develop a solution to a campus-focused challenge — all while making decisions under time constraints.
+Participants work with **AWS PartyRock** to explore data, experiment with AI-powered applications, and develop a solution to a campus-focused challenge — all under time constraints.
 
-Solutions are evaluated on **functionality, usability, innovation, and practical value** — giving you the chance to showcase both technical understanding and creativity.
+Solutions are evaluated on **functionality, usability, innovation, and practical value**.
 
 ---
 
@@ -53,40 +109,29 @@ Round 3 — Campus Innovator 🎓
   Live pitch to an expert judging panel at DBIT
 ```
 
-Whether you're already comfortable with cloud technologies or just getting curious about building with AI tools, PartyRock Hack offers a progressive challenge that takes you from:
-
 > **Knowledge → Experimentation → Creation**
 
 ---
 
-### 🚀 Register Now
-
-> ***Ready to build? Register below for PartyRock Hack and put your ideas to the test!***
+### 🚀 Register for PartyRock Hack
 
 <p align="center">
   <a href="https://awsevents.dbit.edu.in/departments/aiml">
     <strong>👉 awsevents.dbit.edu.in/departments/aiml</strong>
   </a>
-  <br/><br/>
-  <em>Registration closes soon — Solo entry ₹50</em>
+  <br/>
+  <em>Solo entry · ₹50 · Register before seats fill up</em>
 </p>
 
 ---
 
 ## 🤝 Join the AWS Student Builders Group
 
-Interested in being part of a student community that builds, learns, and grows together in cloud and AI?
+Want to be part of the team that organises events like this?
 
-**AWS Student Builders Group at DBIT** is always looking for motivated students who want to:
+**AWS Student Builders Group at DBIT** is looking for motivated students who want to build, learn, and lead in the cloud and AI space.
 
-- Organise and participate in cloud events and workshops
-- Build hands-on projects using AWS services
-- Earn certifications and grow their cloud career
-- Connect with the global AWS student community
-
-### 📋 Fill the Interest Form
-
-> Our team will reach out to you soon after you submit.
+> Fill the interest form and our team will reach out to you.
 
 <p align="center">
   <a href="https://forms.gle/TcuVTVdGg3TEJwU5A">
