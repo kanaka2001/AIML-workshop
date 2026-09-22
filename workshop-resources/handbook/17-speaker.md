@@ -102,5 +102,10 @@ Register through the official AWS Builder Center link to access free courses, ha
 
 ---
 
+> ✅ **Final chapter:**
+> ### 👉 [Chapter 18 — Workshop Wrap-Up & Next Steps](18-wrapup.md)
+
+---
+
 > ← Back to start:
 > ### 👉 [Chapter 00 — Prerequisites & Setup](00-prerequisites.md)

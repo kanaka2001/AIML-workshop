@@ -91,4 +91,4 @@ AWS Console → Search: Billing → Bills
 ---
 
 > ✅ **One chapter left:**
-> ### 👉 [Chapter 16 — Workshop Wrap-Up & Next Steps](16-wrapup.md)
+> ### 👉 [Chapter 16 — What's Next: Take Action](16-action.md)

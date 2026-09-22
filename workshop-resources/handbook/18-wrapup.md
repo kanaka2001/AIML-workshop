@@ -148,4 +148,4 @@ Sign up on **AWS Builder Center** using the workshop link to unlock up to **$579
 ---
 
 > 👤 **Want to reach out to the speaker or stay connected?**
-> ### 👉 [Meet the Speaker — Madhu T K](17-speaker.md)
+> ### 👉 [Chapter 17 — Meet the Speaker — Madhu T K](17-speaker.md)

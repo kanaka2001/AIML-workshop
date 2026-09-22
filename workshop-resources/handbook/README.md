@@ -46,7 +46,9 @@
 | [13](13-partyrock.md) | PartyRock AI Builder |
 | [14](14-certifications.md) | AWS Certifications & Career Guidance |
 | [15](15-teardown-day2.md) | Day 2 Resource Teardown |
-| [16](16-wrapup.md) | Workshop Wrap-Up & Next Steps |
+| [16](16-action.md) | What's Next: Take Action |
+| [17](17-speaker.md) | Meet the Speaker — Madhu T K |
+| [18](18-wrapup.md) | Workshop Wrap-Up & Next Steps |
 
 ---
 
