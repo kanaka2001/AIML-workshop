@@ -202,7 +202,7 @@ sudo apt install -y git
 git clone https://github.com/kanaka2001/AIML-workshop.git
 
 # Move into the React app folder
-cd AIML-workshop/react-web-portal
+wecd AIML-workshop/react-web-portal
 ```
 
 ---
