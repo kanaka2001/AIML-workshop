@@ -144,3 +144,8 @@ Sign up on **AWS Builder Center** using the workshop link to unlock up to **$579
   <i>HexaVerse CloudFest '26 | AWS Student Builder Group – DBIT</i><br/>
   <i>Department of AI & ML, Don Bosco Institute of Technology, Bengaluru</i>
 </p>
+
+---
+
+> 👤 **Want to reach out to the speaker or stay connected?**
+> ### 👉 [Meet the Speaker — Madhu T K](17-speaker.md)
