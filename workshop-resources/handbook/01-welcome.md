@@ -61,7 +61,7 @@ You are at **AWS Builders Lab**. Post about it!
 This is what your AWS Management Console looks like once you're logged in. All the services you'll use today are reachable from here.
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-22-19.png" width="720" alt="AWS Console Home"/>
+  <img src="../aws-console-home.png" width="720" alt="AWS Console Home"/>
   <br/>
   <em>AWS Management Console — starting point for every lab</em>
 </p>

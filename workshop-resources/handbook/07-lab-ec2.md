@@ -41,8 +41,17 @@ Consumes power 24/7           Pay only when running
 
 ```
 AWS Console → Search: EC2 → Click EC2
-→ Click "Launch instance" (orange button)
 ```
+
+You will land on the EC2 Dashboard. Your instances list will be empty — that's expected.
+
+<p align="center">
+  <img src="../ec2-instances-list.png" width="720" alt="EC2 Instances list — empty"/>
+  <br/>
+  <em>EC2 Instances list — "No instances" is the correct starting state</em>
+</p>
+
+From the Dashboard, click **"Launch instance"** (orange button).
 
 <p align="center">
   <img src="../ec2-dashboard.png" width="720" alt="EC2 Dashboard"/>
@@ -54,7 +63,7 @@ AWS Console → Search: EC2 → Click EC2
 
 ### Step 2 — Name and OS
 
-On the Launch an instance page, fill in the name and choose your operating system:
+On the **Launch an instance** page, fill in the name and choose your operating system:
 
 ```
 Name  →  my-first-instance
@@ -79,7 +88,9 @@ Instance type  →  t2.micro    ✅ Free Tier eligible
 
 ---
 
-### Step 4 — Key Pair
+### Step 4 — Key Pair and Network Settings
+
+Scroll down on the same launch page to reach the Key pair and Network settings sections.
 
 ```
 Key pair  →  Click "Create new key pair"
@@ -93,11 +104,8 @@ Key pair  →  Click "Create new key pair"
 
 > ⚠️ The `.pem` file downloads automatically. **Save it somewhere safe.** You cannot download it again.
 
----
-
-### Step 5 — Network Settings
-
 ```
+Network settings:
 ✅ Allow SSH traffic from    →  My IP
 ✅ Allow HTTP traffic from the internet
 ```
@@ -105,21 +113,24 @@ Key pair  →  Click "Create new key pair"
 <p align="center">
   <img src="../ec2-launch-keypair-network.png" width="720" alt="EC2 Launch — Key pair and Network settings"/>
   <br/>
-  <em>Select or create a key pair and configure SSH + HTTP access rules</em>
+  <em>Key pair (login) and Network settings — on the same launch form, scroll down to reach these</em>
 </p>
 
 ---
 
-### Step 6 — Storage and Launch
+### Step 5 — Storage and Launch
+
+Continue scrolling to the **Configure storage** section.
 
 ```
 Storage  →  Leave default (8 GiB gp3)
+File systems  →  None
 ```
 
 <p align="center">
   <img src="../ec2-launch-storage.png" width="720" alt="EC2 Launch — Configure storage"/>
   <br/>
-  <em>Leave storage at default 8 GiB gp3, then click "Launch instance"</em>
+  <em>Configure storage — leave at default 8 GiB gp3, then scroll to the bottom and click "Launch instance"</em>
 </p>
 
 ```
@@ -129,15 +140,11 @@ Storage  →  Leave default (8 GiB gp3)
 
 ---
 
-### Step 7 — Wait for Running State
+### Step 6 — Wait for Running State
 
-After launching, you will see the Instances list. Wait until **Instance state** shows **Running ✅**
+After launching, you will be taken to the Instances list. Wait until **Instance state** changes to **Running ✅**
 
-<p align="center">
-  <img src="../ec2-instances-list.png" width="720" alt="EC2 Instances list"/>
-  <br/>
-  <em>Your instance will appear here — wait for Instance state to show "Running"</em>
-</p>
+> 💡 Refresh the page if the state stays "Pending" for more than a minute.
 
 ---
 
@@ -202,7 +209,7 @@ sudo apt install -y git
 git clone https://github.com/kanaka2001/AIML-workshop.git
 
 # Move into the React app folder
-wecd AIML-workshop/react-web-portal
+cd AIML-workshop/react-web-portal
 ```
 
 ---

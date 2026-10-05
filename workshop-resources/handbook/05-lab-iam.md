@@ -54,26 +54,28 @@ NEVER share this          Safe to use for daily tasks
 AWS Console → Search bar → Type: IAM → Click IAM
 ```
 
-You should see the **IAM Dashboard** with a menu on the left side.
+You will land on the **IAM Dashboard** — your access management control panel. Notice the Sign-in URL on the right — this is what your IAM users will use to log in.
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-23-27.png" width="720" alt="IAM Dashboard"/>
+  <img src="../iam-dashboard.png" width="720" alt="IAM Dashboard"/>
   <br/>
-  <em>IAM Dashboard — your access management control panel</em>
+  <em>IAM Dashboard — shows Security recommendations, IAM resources count, and the account Sign-in URL</em>
 </p>
 
 ---
 
-### Step 2 — Go to Users
+### Step 2 — Go to Users and Start Creating
 
 ```
-Left sidebar → Users → Click "Create user" (orange button, top right)
+Left sidebar → IAM users → Click "Create user" (orange button, top right)
 ```
+
+You will reach the **Specify user details** form (Step 1 of 3 in the wizard).
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-23-44.png" width="720" alt="IAM Users list"/>
+  <img src="../iam-create-user-step1-details.png" width="720" alt="Create user — Specify user details"/>
   <br/>
-  <em>IAM Users list — click "Create user" to begin</em>
+  <em>Create user wizard — Step 1: enter the username and enable console access</em>
 </p>
 
 ---
@@ -93,15 +95,11 @@ Password → Select: Custom password
 → Click Next
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-05.png" width="720" alt="Create user — User details"/>
-  <br/>
-  <em>Step 1 — fill in the username and enable console access</em>
-</p>
-
 ---
 
 ### Step 4 — Assign Permissions
+
+You are now on **Step 2: Set permissions**.
 
 ```
 Permissions options → Select: Attach policies directly
@@ -113,13 +111,13 @@ Search box → Type: AdministratorAccess
 → Click Next
 ```
 
-> 💡 **AdministratorAccess** grants full permissions — ideal for a learning sandbox. In production environments, always use the minimum permissions required.
-
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-31.png" width="720" alt="Attach permissions policy"/>
+  <img src="../iam-create-user-step2-permissions.png" width="720" alt="Set permissions — Attach policies directly"/>
   <br/>
-  <em>Step 2 — attach AdministratorAccess policy</em>
+  <em>Step 2: Set permissions — select "Attach policies directly" then search for and check AdministratorAccess</em>
 </p>
+
+> 💡 **AdministratorAccess** grants full permissions — ideal for a learning sandbox. In production environments, always use the minimum permissions required.
 
 ---
 
@@ -129,12 +127,6 @@ Search box → Type: AdministratorAccess
 Review the User details and Permissions summary
 → Click "Create user"
 ```
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-43.png" width="720" alt="Review and create user"/>
-  <br/>
-  <em>Step 3 — review everything before clicking Create user</em>
-</p>
 
 ---
 
@@ -146,12 +138,6 @@ OR copy the Console sign-in URL
 ```
 
 > ⚠️ This is the **only time** you can download these credentials. Do not skip this step.
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-24-56.png" width="720" alt="User created — download credentials"/>
-  <br/>
-  <em>User created — download the .csv file now before closing this page</em>
-</p>
 
 ---
 

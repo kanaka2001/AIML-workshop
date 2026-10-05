@@ -67,7 +67,7 @@ As you engage with the community, you earn badges that unlock additional rewards
   <a href="https://bit.ly/450cFtS"><b>https://bit.ly/450cFtS</b></a>
   <br/><br/>
   <b>Or scan the QR code:</b><br/><br/>
-  <img src="../Qq7vjtJT545MhHy_SBGL - f46844e8-9071-70d1-51b7-86adf8cac96f - Visvesvaraya Technological University-Don Bosco Instit.png" width="220" alt="AWS Builder Center QR Code"/>
+  <img src="../qr-builder-center.png" width="220" alt="AWS Builder Center QR Code"/>
 </p>
 
 > 📲 **Open your phone camera and point it at the QR code — it opens the sign-up page directly.**

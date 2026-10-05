@@ -78,29 +78,64 @@ Create these two files on your laptop before starting.
 
 ### Phase A — Create the S3 Bucket
 
-```
-AWS Console → Search: S3 → Click S3 → Click "Create bucket"
+#### Step 1 — Open S3
 
+```
+AWS Console → Search bar → Type: S3 → Click S3
+```
+
+When you first open S3, your bucket list will be empty — that's expected.
+
+<p align="center">
+  <img src="../s3-buckets-list-empty.png" width="720" alt="S3 Buckets list — empty"/>
+  <br/>
+  <em>S3 Buckets list — "No buckets" is the correct starting state</em>
+</p>
+
+#### Step 2 — Start Creating a Bucket
+
+Click **"Create bucket"** (orange button, top right or centre of the page).
+
+<p align="center">
+  <img src="../s3-service-landing.png" width="720" alt="S3 Service landing page"/>
+  <br/>
+  <em>S3 service home — click "Create bucket" to begin</em>
+</p>
+
+#### Step 3 — Fill in Bucket Configuration
+
+```
+Bucket type  →  General purpose (default)
 Bucket name  →  Enter your unique bucket name
 AWS Region   →  Asia Pacific (Mumbai) ap-south-1
 
-Object Ownership  →  Leave: ACLs disabled (recommended)
+Object Ownership  →  ACLs disabled (recommended) — leave as default
+```
 
-Block Public Access:
+<p align="center">
+  <img src="../s3-create-bucket-config.png" width="720" alt="Create bucket — General configuration"/>
+  <br/>
+  <em>Create bucket — enter your bucket name and keep region as Mumbai (ap-south-1)</em>
+</p>
+
+#### Step 4 — Unblock Public Access
+
+```
+Block Public Access settings:
   ☐ UNCHECK "Block all public access"
   ✅ CHECK  "I acknowledge that current settings might result
              in this bucket and objects becoming public"
 
 Bucket Versioning  →  Disable
-Encryption         →  Leave default
+Encryption         →  Leave default (SSE-S3)
 
 → Click "Create bucket"
 ```
 
 <p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-09.png" width="720" alt="S3 Console — Create bucket"/>
+  <img src="../s3-create-bucket-public-access.png" width="720" alt="Create bucket — unblock public access"/>
   <br/>
-  <em>S3 Console — click "Create bucket" to get started</em>
+  <em>Uncheck "Block all public access" — required for static website hosting</em>
 </p>
 
 ---
@@ -114,18 +149,6 @@ Objects tab → Click "Upload"
 → Click "Upload"
 → Wait for green "Upload succeeded" banner → Click "Close"
 ```
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-26.png" width="720" alt="S3 bucket created — Objects tab"/>
-  <br/>
-  <em>Your bucket is created — click Upload to add your HTML files</em>
-</p>
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-25-50.png" width="720" alt="S3 Upload files"/>
-  <br/>
-  <em>Upload succeeded — both index.html and error.html are now in your bucket</em>
-</p>
 
 ---
 
@@ -141,12 +164,6 @@ Error document          →  error.html
 
 → Click "Save changes"
 ```
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-03.png" width="720" alt="S3 Static website hosting settings"/>
-  <br/>
-  <em>Enable static website hosting and set index.html as the root document</em>
-</p>
 
 ---
 
@@ -177,12 +194,6 @@ Paste this — replace `YOUR-BUCKET-NAME` with your actual bucket name:
 → Click "Save changes"
 ```
 
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-14.png" width="720" alt="S3 Bucket policy — public read"/>
-  <br/>
-  <em>Paste the bucket policy and save — this makes your files publicly readable</em>
-</p>
-
 ---
 
 ### Phase E — Visit Your Live Website
@@ -191,12 +202,6 @@ Paste this — replace `YOUR-BUCKET-NAME` with your actual bucket name:
 Properties tab → Static website hosting section
 → Click the Bucket website endpoint URL
 ```
-
-<p align="center">
-  <img src="../Screenshot_2026-09-20_23-26-26.png" width="720" alt="S3 website endpoint — live"/>
-  <br/>
-  <em>Your bucket website endpoint is now active — click the URL to see your live site</em>
-</p>
 
 **Your website is now live on the internet.** 🎉
 

@@ -130,13 +130,7 @@ Once loading completes, you will land inside **SageMaker Studio Home**. You can 
 
 In the left sidebar, under **Applications and IDEs**, click **Canvas**.
 
-You will see the Canvas app page. Click the blue **Run Canvas** button.
-
-<p align="center">
-  <img src="../sagemaker-studio-canvas-app.png" width="720" alt="SageMaker Studio — Canvas app page"/>
-  <br/>
-  <em>Canvas app — Status: Stopped. Click "Run Canvas" to start your no-code ML workspace</em>
-</p>
+You will see the Canvas app page with Status: **Stopped** and a **Run Canvas** button. Click **Run Canvas** to start it.
 
 ---
 
@@ -152,14 +146,22 @@ Stopped → Pending → Starting → Running ✅
 
 > ⏳ This background provisioning takes **2 to 4 minutes**. Do not refresh or close the page.
 
-When status turns green **Running**, a light blue **Open Canvas ↗** button appears. Click it.
-
-Canvas opens in a new browser tab with the full Home dashboard.
+This is what the Canvas page looks like inside SageMaker Studio while it is in **Stopped** state — the "Run Canvas" button is shown clearly:
 
 <p align="center">
-  <img src="../sagemaker-canvas-landing.png" width="720" alt="SageMaker Canvas landing page"/>
+  <img src="../sagemaker-studio-canvas-app.png" width="720" alt="SageMaker Studio — Canvas app page"/>
   <br/>
-  <em>SageMaker Canvas — "Generate accurate machine learning predictions, no code required"</em>
+  <em>Canvas app in Studio — Status: Stopped. Click "Run Canvas" to start your no-code ML workspace</em>
+</p>
+
+When status turns green **Running**, an **Open Canvas ↗** button appears. Click it.
+
+Canvas opens in a new browser tab. You may first land on the SageMaker Canvas AWS console page:
+
+<p align="center">
+  <img src="../sagemaker-canvas-landing.png" width="720" alt="SageMaker Canvas — AWS console landing page"/>
+  <br/>
+  <em>SageMaker Canvas AWS console page — click "Canvas" in the left sidebar under Applications and IDEs to navigate here, then click "Open Canvas" once status is Running</em>
 </p>
 
 ---
@@ -171,7 +173,7 @@ Inside Canvas you will see the full no-code ML journey dashboard.
 <p align="center">
   <img src="../sagemaker-canvas-home.png" width="720" alt="Amazon SageMaker Canvas Home"/>
   <br/>
-  <em>Canvas Home — Build ML with Amazon Q, Create a model, Explore Generative AI, all from one screen</em>
+  <em>Canvas Home — Build ML with Amazon Q, Create a model, Explore Generative AI. Click "My Models" in the left sidebar to start building</em>
 </p>
 
 ---
@@ -236,7 +238,7 @@ Canvas will automatically recommend the model type (e.g., *2-category prediction
 <p align="center">
   <img src="../sagemaker-canvas-model-build.png" width="720" alt="Canvas — Model Build tab with dataset columns"/>
   <br/>
-  <em>Build tab — select your target column (e.g., RainTomorrow / Placed), review 1k rows and column stats</em>
+  <em>Build tab — select your target column (e.g., "Placed" for the student placement dataset), review row count and column statistics, then click "Quick Build"</em>
 </p>
 
 Once ready, click **Quick Build** (top-right, orange button).

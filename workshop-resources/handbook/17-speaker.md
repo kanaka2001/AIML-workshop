@@ -85,7 +85,7 @@ Register through the official AWS Builder Center link to access free courses, ha
 
 <p align="center">
   <a href="https://bit.ly/450cFtS">
-    <img src="../Qq7vjtJT545MhHy_SBGL - f46844e8-9071-70d1-51b7-86adf8cac96f - Visvesvaraya Technological University-Don Bosco Instit.png" width="200" alt="AWS Builder Center QR Code"/>
+    <img src="../qr-builder-center.png" width="200" alt="AWS Builder Center QR Code"/>
   </a>
   <br/>
   <strong><a href="https://bit.ly/450cFtS">bit.ly/450cFtS</a></strong>
