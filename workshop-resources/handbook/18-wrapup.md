@@ -1,4 +1,4 @@
-# Chapter 16 — Workshop Wrap-Up & Next Steps
+# Chapter 18 — Workshop Wrap-Up & Next Steps
 
 **Day 2 | 12:45 PM – 01:10 PM**
 

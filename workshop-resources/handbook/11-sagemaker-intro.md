@@ -41,7 +41,7 @@ RESULT: Weeks of work             RESULT: Under 10 minutes
 
 | Problem Type | What It Predicts | Example |
 |---|---|---|
-| **Binary Classification** | Yes or No | Will this customer leave? |
+| **Binary Classification** | Yes or No | Will this student get placed? |
 | **Multi-class Classification** | One of many categories | Which department handles this ticket? |
 | **Regression** | A number | What will this house sell for? |
 | **Time-series Forecasting** | Future values | What will sales be next month? |
@@ -50,33 +50,52 @@ RESULT: Weeks of work             RESULT: Under 10 minutes
 
 ## 🎯 What You Are Building Today
 
-**Customer Churn Predictor**
+**Student Placement Predictor**
 
-A telecom company wants to know: *which customers are most likely to cancel their subscription next month?*
+A college placement cell wants to know: *which students are most likely to get placed based on their academic performance and skills?*
+
+Your dataset: **`student_placement.csv`** — shared in the WhatsApp channel before the session.
 
 Your pipeline:
 
 <p align="center">
 
 ```
-Import CSV dataset
+Import student_placement.csv
        ↓
-Select prediction target (Churn column)
+Select prediction target (Placed column)
        ↓
 Canvas trains ML model automatically (AutoML)
        ↓
-Review accuracy & which factors drive churn
+Review accuracy & which factors drive placement
        ↓
-Make live predictions for individual customers
+Make live predictions for individual student profiles
+       ↓
+Deploy as a live REST API endpoint
 ```
 
 </p>
 
 ---
 
-## 🌐 Follow the MLOps Journey Live
+## 📋 Dataset — What's Inside
 
-> 📢 Resources for today's lab are in the WhatsApp channel — make sure you have the CSV file downloaded.
+| Column | What It Represents |
+|---|---|
+| CGPA / GPA | Academic performance |
+| Internships | Number of internships completed |
+| Projects | Number of projects done |
+| Skills | Technical skills count |
+| Placed | **Target column** — Yes (placed) or No (not placed) |
+
+> The model learns from historical data and predicts whether a new student profile is likely to result in placement.
+
+---
+
+## 🌐 Get the Dataset Before the Lab
+
+> 📢 The `student_placement.csv` file will be shared in the WhatsApp channel before this session.
+> Make sure it is downloaded on your laptop before Chapter 12 begins.
 > **[Join WhatsApp Channel](https://whatsapp.com/channel/0029Vb76rEYATRSlFR1mOg2X)**
 
 ---
@@ -85,8 +104,8 @@ Make live predictions for individual customers
 
 - [ ] I understand what SageMaker Canvas does
 - [ ] I understand what Binary Classification means
-- [ ] I have the customer churn CSV file from the facilitator
-- [ ] I understand what the `Churn` column represents
+- [ ] I have `student_placement.csv` downloaded from the WhatsApp channel
+- [ ] I understand what the `Placed` column represents (target to predict)
 
 ---
 

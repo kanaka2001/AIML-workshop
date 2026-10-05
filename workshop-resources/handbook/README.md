@@ -12,7 +12,7 @@
 
 ---
 
-> 📖 This handbook is split into **17 chapters — one per session**.
+> 📖 This handbook is split into **19 chapters — one per session** (Chapter 00 through Chapter 18).
 > Follow them in order like a book. Each chapter ends with a badge and a link to the next one.
 
 ---
