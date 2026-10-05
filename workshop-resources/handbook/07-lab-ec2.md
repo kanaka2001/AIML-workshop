@@ -46,7 +46,7 @@ AWS Console → Search: EC2 → Click EC2
 You will land on the EC2 Dashboard. Your instances list will be empty — that's expected.
 
 <p align="center">
-  <img src="../ec2-instances-list.png" width="720" alt="EC2 Instances list — empty"/>
+  <img src="../images/ec2-instances-list.png" width="720" alt="EC2 Instances list — empty"/>
   <br/>
   <em>EC2 Instances list — "No instances" is the correct starting state</em>
 </p>
@@ -54,7 +54,7 @@ You will land on the EC2 Dashboard. Your instances list will be empty — that's
 From the Dashboard, click **"Launch instance"** (orange button).
 
 <p align="center">
-  <img src="../ec2-dashboard.png" width="720" alt="EC2 Dashboard"/>
+  <img src="../images/ec2-dashboard.png" width="720" alt="EC2 Dashboard"/>
   <br/>
   <em>EC2 Dashboard — click "Launch instance" to start configuring your virtual machine</em>
 </p>
@@ -73,7 +73,7 @@ AMI   →  Ubuntu Server 22.04 LTS (HVM), SSD Volume Type
 ```
 
 <p align="center">
-  <img src="../ec2-launch-ami-selection.png" width="720" alt="EC2 Launch — Name and AMI selection"/>
+  <img src="../images/ec2-launch-ami-selection.png" width="720" alt="EC2 Launch — Name and AMI selection"/>
   <br/>
   <em>Enter a name and select Ubuntu from the Quick Start AMIs</em>
 </p>
@@ -111,7 +111,7 @@ Network settings:
 ```
 
 <p align="center">
-  <img src="../ec2-launch-keypair-network.png" width="720" alt="EC2 Launch — Key pair and Network settings"/>
+  <img src="../images/ec2-launch-keypair-network.png" width="720" alt="EC2 Launch — Key pair and Network settings"/>
   <br/>
   <em>Key pair (login) and Network settings — on the same launch form, scroll down to reach these</em>
 </p>
@@ -128,7 +128,7 @@ File systems  →  None
 ```
 
 <p align="center">
-  <img src="../ec2-launch-storage.png" width="720" alt="EC2 Launch — Configure storage"/>
+  <img src="../images/ec2-launch-storage.png" width="720" alt="EC2 Launch — Configure storage"/>
   <br/>
   <em>Configure storage — leave at default 8 GiB gp3, then scroll to the bottom and click "Launch instance"</em>
 </p>

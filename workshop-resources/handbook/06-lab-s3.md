@@ -87,7 +87,7 @@ AWS Console → Search bar → Type: S3 → Click S3
 When you first open S3, your bucket list will be empty — that's expected.
 
 <p align="center">
-  <img src="../s3-buckets-list-empty.png" width="720" alt="S3 Buckets list — empty"/>
+  <img src="../images/s3-buckets-list-empty.png" width="720" alt="S3 Buckets list — empty"/>
   <br/>
   <em>S3 Buckets list — "No buckets" is the correct starting state</em>
 </p>
@@ -97,7 +97,7 @@ When you first open S3, your bucket list will be empty — that's expected.
 Click **"Create bucket"** (orange button, top right or centre of the page).
 
 <p align="center">
-  <img src="../s3-service-landing.png" width="720" alt="S3 Service landing page"/>
+  <img src="../images/s3-service-landing.png" width="720" alt="S3 Service landing page"/>
   <br/>
   <em>S3 service home — click "Create bucket" to begin</em>
 </p>
@@ -113,7 +113,7 @@ Object Ownership  →  ACLs disabled (recommended) — leave as default
 ```
 
 <p align="center">
-  <img src="../s3-create-bucket-config.png" width="720" alt="Create bucket — General configuration"/>
+  <img src="../images/s3-create-bucket-config.png" width="720" alt="Create bucket — General configuration"/>
   <br/>
   <em>Create bucket — enter your bucket name and keep region as Mumbai (ap-south-1)</em>
 </p>
@@ -133,7 +133,7 @@ Encryption         →  Leave default (SSE-S3)
 ```
 
 <p align="center">
-  <img src="../s3-create-bucket-public-access.png" width="720" alt="Create bucket — unblock public access"/>
+  <img src="../images/s3-create-bucket-public-access.png" width="720" alt="Create bucket — unblock public access"/>
   <br/>
   <em>Uncheck "Block all public access" — required for static website hosting</em>
 </p>

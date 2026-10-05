@@ -36,7 +36,7 @@ This is the **official Amazon Web Services feedback survey** for the event. Your
 
 <p align="center">
   <a href="https://pulse.amazon/survey/UPCU4UQO?p=0">
-    <img src="../qr-aws-feedback.jpeg" width="220" alt="AWS Official Feedback Form QR Code"/>
+    <img src="../images/qr-aws-feedback.jpeg" width="220" alt="AWS Official Feedback Form QR Code"/>
   </a>
   <br/><br/>
   <strong>Scan the QR code or click the link below:</strong>
@@ -54,7 +54,7 @@ This is **our internal feedback form** for the AWS Student Builders Group at DBI
 
 <p align="center">
   <a href="https://forms.gle/7PzATmjkJSRV6gm16">
-    <img src="../qr-sbg-feedback.jpeg" width="220" alt="AWS SBG DBIT Feedback Form QR Code"/>
+    <img src="../images/qr-sbg-feedback.jpeg" width="220" alt="AWS SBG DBIT Feedback Form QR Code"/>
   </a>
   <br/><br/>
   <strong>Scan the QR code or click the link below:</strong>

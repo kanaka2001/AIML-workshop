@@ -73,7 +73,7 @@ Sign up on **AWS Builder Center** using the workshop link to unlock up to **$579
   <b>Sign-up link:</b> <a href="https://bit.ly/450cFtS"><b>https://bit.ly/450cFtS</b></a>
   <br/><br/>
   <b>Or scan the QR code:</b><br/><br/>
-  <img src="../qr-builder-center.png" width="200" alt="AWS Builder Center QR Code"/>
+  <img src="../images/qr-builder-center.png" width="200" alt="AWS Builder Center QR Code"/>
 </p>
 
 > No credit card needed. Verification takes a few minutes via SheerID.

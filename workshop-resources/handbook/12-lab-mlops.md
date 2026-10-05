@@ -67,7 +67,7 @@ Click inside the **Search** bar at the top-left (next to the orange AWS logo).
 Type `SageMaker` and click **Amazon SageMaker AI** from the results.
 
 <p align="center">
-  <img src="../sagemaker-landing.png" width="720" alt="Amazon SageMaker service landing page"/>
+  <img src="../images/sagemaker-landing.png" width="720" alt="Amazon SageMaker service landing page"/>
   <br/>
   <em>Amazon SageMaker — the center for data, analytics, and AI on AWS</em>
 </p>
@@ -79,7 +79,7 @@ Type `SageMaker` and click **Amazon SageMaker AI** from the results.
 You will land on the SageMaker AI Dashboard. This shows your domains, user profiles, and active resources.
 
 <p align="center">
-  <img src="../sagemaker-ai-dashboard.png" width="720" alt="SageMaker AI Dashboard"/>
+  <img src="../images/sagemaker-ai-dashboard.png" width="720" alt="SageMaker AI Dashboard"/>
   <br/>
   <em>SageMaker AI Dashboard — Domains: 0, User Profiles: 0. Click "Create a SageMaker domain" to begin</em>
 </p>
@@ -103,7 +103,7 @@ On the setup screen, select **Set up for single user (Quick setup)** — this is
 ```
 
 <p align="center">
-  <img src="../sagemaker-domain-setup.png" width="720" alt="Set up SageMaker domain — Quick setup"/>
+  <img src="../images/sagemaker-domain-setup.png" width="720" alt="Set up SageMaker domain — Quick setup"/>
   <br/>
   <em>Choose "Set up for single user (Quick setup)" — then click Set up</em>
 </p>
@@ -111,7 +111,7 @@ On the setup screen, select **Set up for single user (Quick setup)** — this is
 SageMaker Studio will now provision your environment. This takes about 20 seconds — **do not close the page**.
 
 <p align="center">
-  <img src="../sagemaker-studio-loading.png" width="720" alt="SageMaker Studio loading — 16%"/>
+  <img src="../images/sagemaker-studio-loading.png" width="720" alt="SageMaker Studio loading — 16%"/>
   <br/>
   <em>SageMaker Studio is setting up your managed AI development environment — wait for it to complete</em>
 </p>
@@ -123,7 +123,7 @@ SageMaker Studio will now provision your environment. This takes about 20 second
 Once loading completes, you will land inside **SageMaker Studio Home**. You can see JupyterLab, Canvas, Code Editor, and your recent training jobs here.
 
 <p align="center">
-  <img src="../sagemaker-studio-home.png" width="720" alt="SageMaker Studio Home"/>
+  <img src="../images/sagemaker-studio-home.png" width="720" alt="SageMaker Studio Home"/>
   <br/>
   <em>SageMaker Studio Home — click Canvas in the left Applications panel or in the app tiles</em>
 </p>
@@ -149,7 +149,7 @@ Stopped → Pending → Starting → Running ✅
 This is what the Canvas page looks like inside SageMaker Studio while it is in **Stopped** state — the "Run Canvas" button is shown clearly:
 
 <p align="center">
-  <img src="../sagemaker-studio-canvas-app.png" width="720" alt="SageMaker Studio — Canvas app page"/>
+  <img src="../images/sagemaker-studio-canvas-app.png" width="720" alt="SageMaker Studio — Canvas app page"/>
   <br/>
   <em>Canvas app in Studio — Status: Stopped. Click "Run Canvas" to start your no-code ML workspace</em>
 </p>
@@ -159,7 +159,7 @@ When status turns green **Running**, an **Open Canvas ↗** button appears. Clic
 Canvas opens in a new browser tab. You may first land on the SageMaker Canvas AWS console page:
 
 <p align="center">
-  <img src="../sagemaker-canvas-landing.png" width="720" alt="SageMaker Canvas — AWS console landing page"/>
+  <img src="../images/sagemaker-canvas-landing.png" width="720" alt="SageMaker Canvas — AWS console landing page"/>
   <br/>
   <em>SageMaker Canvas AWS console page — click "Canvas" in the left sidebar under Applications and IDEs to navigate here, then click "Open Canvas" once status is Running</em>
 </p>
@@ -171,7 +171,7 @@ Canvas opens in a new browser tab. You may first land on the SageMaker Canvas AW
 Inside Canvas you will see the full no-code ML journey dashboard.
 
 <p align="center">
-  <img src="../sagemaker-canvas-home.png" width="720" alt="Amazon SageMaker Canvas Home"/>
+  <img src="../images/sagemaker-canvas-home.png" width="720" alt="Amazon SageMaker Canvas Home"/>
   <br/>
   <em>Canvas Home — Build ML with Amazon Q, Create a model, Explore Generative AI. Click "My Models" in the left sidebar to start building</em>
 </p>
@@ -207,7 +207,7 @@ Source → Amazon S3
 In the **left sidebar**, click the **My Models** icon (lightbulb and network symbol).
 
 <p align="center">
-  <img src="../sagemaker-canvas-my-models.png" width="720" alt="Canvas — My Models page"/>
+  <img src="../images/sagemaker-canvas-my-models.png" width="720" alt="Canvas — My Models page"/>
   <br/>
   <em>My Models — the Build → Analyze → Predict → Deploy pipeline. Click "+ New model" to begin</em>
 </p>
@@ -236,7 +236,7 @@ Target column → Select: Placed
 Canvas will automatically recommend the model type (e.g., *2-category prediction*).
 
 <p align="center">
-  <img src="../sagemaker-canvas-model-build.png" width="720" alt="Canvas — Model Build tab with dataset columns"/>
+  <img src="../images/sagemaker-canvas-model-build.png" width="720" alt="Canvas — Model Build tab with dataset columns"/>
   <br/>
   <em>Build tab — select your target column (e.g., "Placed" for the student placement dataset), review row count and column statistics, then click "Quick Build"</em>
 </p>

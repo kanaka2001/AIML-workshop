@@ -57,7 +57,7 @@ AWS Console → Search bar → Type: IAM → Click IAM
 You will land on the **IAM Dashboard** — your access management control panel. Notice the Sign-in URL on the right — this is what your IAM users will use to log in.
 
 <p align="center">
-  <img src="../iam-dashboard.png" width="720" alt="IAM Dashboard"/>
+  <img src="../images/iam-dashboard.png" width="720" alt="IAM Dashboard"/>
   <br/>
   <em>IAM Dashboard — shows Security recommendations, IAM resources count, and the account Sign-in URL</em>
 </p>
@@ -73,7 +73,7 @@ Left sidebar → IAM users → Click "Create user" (orange button, top right)
 You will reach the **Specify user details** form (Step 1 of 3 in the wizard).
 
 <p align="center">
-  <img src="../iam-create-user-step1-details.png" width="720" alt="Create user — Specify user details"/>
+  <img src="../images/iam-create-user-step1-details.png" width="720" alt="Create user — Specify user details"/>
   <br/>
   <em>Create user wizard — Step 1: enter the username and enable console access</em>
 </p>
@@ -112,7 +112,7 @@ Search box → Type: AdministratorAccess
 ```
 
 <p align="center">
-  <img src="../iam-create-user-step2-permissions.png" width="720" alt="Set permissions — Attach policies directly"/>
+  <img src="../images/iam-create-user-step2-permissions.png" width="720" alt="Set permissions — Attach policies directly"/>
   <br/>
   <em>Step 2: Set permissions — select "Attach policies directly" then search for and check AdministratorAccess</em>
 </p>

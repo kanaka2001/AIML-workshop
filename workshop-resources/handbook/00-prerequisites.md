@@ -43,7 +43,7 @@ AWS Builder Center is the official community platform for AWS builders. Signing 
   <b>Sign-up link:</b> <a href="https://bit.ly/450cFtS"><b>https://bit.ly/450cFtS</b></a>
   <br/><br/>
   <b>Or scan the QR code:</b><br/><br/>
-  <img src="../qr-builder-center.png" width="200" alt="AWS Builder Center QR Code"/>
+  <img src="../images/qr-builder-center.png" width="200" alt="AWS Builder Center QR Code"/>
 </p>
 
 **What you unlock:**
